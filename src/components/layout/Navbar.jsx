@@ -18,6 +18,14 @@ export default function Navbar() {
         {/* DESKTOP MENU */}
         <div className="hidden md:flex items-center gap-8 text-sm">
           <NavLink
+            to="/calculator"
+            className={({ isActive }) =>
+              isActive
+                ? "text-blue-500 font-medium"
+                : "text-gray-700 hover:text-gray-900"
+            }
+          ></NavLink>
+          <NavLink
             to="/services"
             className={({ isActive }) =>
               isActive
