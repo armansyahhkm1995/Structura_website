@@ -342,27 +342,6 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* TABS */}
-      <section className="pb-10">
-        <div className="flex justify-center">
-          <div className="flex gap-2 bg-gray-100 p-2 rounded-xl">
-            {tabs.map((tab) => (
-              <button
-                key={tab.id}
-                onClick={() => setActiveTab(tab.id)}
-                className={`px-5 py-2 rounded-lg text-sm ${
-                  activeTab === tab.id
-                    ? "bg-white shadow text-primary"
-                    : "text-gray-500"
-                }`}
-              >
-                {tab.label}
-              </button>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* GRID */}
       <section className="pb-24">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-6">

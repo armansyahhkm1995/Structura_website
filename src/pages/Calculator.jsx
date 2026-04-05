@@ -1,10 +1,32 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useSearchParams } from "react-router-dom";
+import { useEffect } from "react";
+
 import { calculateRAB } from "../utils/HomeCalculator";
 import { calculateRABKomersial } from "../utils/CommercialCalculator";
 import { calculateRABInfra } from "../utils/InfrastructureCalculator";
 
 export default function Calculator() {
+  const [searchParams] = useSearchParams();
+
+  useEffect(() => {
+    const type = searchParams.get("type");
+
+    if (type && ["rumah", "komersial", "infrastruktur"].includes(type)) {
+      setProjectType(type);
+
+      // reset step sesuai tipe
+      if (type === "infrastruktur") {
+        setStep(3);
+      } else {
+        setStep(1);
+      }
+
+      setResult(null);
+    }
+  }, [searchParams]);
+
   const PROJECT_CONFIG = {
     rumah: {
       title: "Estimasi Biaya Rumah Tinggal",

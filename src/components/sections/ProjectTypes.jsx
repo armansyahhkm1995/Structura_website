@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 import home_type_21 from "../../assets/rumah/home_type_21.webp";
 import home_type_36 from "../../assets/rumah/home_type_36.webp";
@@ -28,12 +29,28 @@ import kanopi_baja from "../../assets/infra/kanopi_baja.webp";
 
 export default function ProjectTypes() {
   const [activeTab, setActiveTab] = useState("rumah");
+  const navigate = useNavigate();
 
   const tabs = [
     { id: "rumah", label: "Rumah" },
     { id: "komersial", label: "Komersial" },
     { id: "infrastruktur", label: "Infrastruktur" },
   ];
+
+  const CTA_CONFIG = {
+    rumah: {
+      label: "Hitung Estimasi Rumah Anda",
+      type: "rumah",
+    },
+    komersial: {
+      label: "Hitung Estimasi Proyek Komersial Anda",
+      type: "komersial",
+    },
+    infrastruktur: {
+      label: "Hitung Estimasi Infrastruktur Anda",
+      type: "infrastruktur",
+    },
+  };
 
   return (
     <section className="py-24 bg-white">
@@ -73,6 +90,18 @@ export default function ProjectTypes() {
           {activeTab === "rumah" && <RumahGrid />}
           {activeTab === "komersial" && <KomersialGrid />}
           {activeTab === "infrastruktur" && <InfraGrid />}
+        </div>
+
+        {/* ✅ CTA DINAMIS */}
+        <div className="mt-12 text-center">
+          <button
+            onClick={() =>
+              navigate(`/calculator?type=${CTA_CONFIG[activeTab].type}`)
+            }
+            className="px-8 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition text-lg"
+          >
+            {CTA_CONFIG[activeTab].label}
+          </button>
         </div>
       </div>
     </section>

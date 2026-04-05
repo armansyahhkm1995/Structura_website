@@ -1,7 +1,9 @@
 import { whatsappLink } from "../../utils/whatsapp";
 import hero_section_image from "../../assets/hero_section_image.webp";
+import { useNavigate } from "react-router-dom";
 
 export default function Hero() {
+  const navigate = useNavigate();
   return (
     <section className="w-full min-h-screen flex items-center bg-white pt-0">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
@@ -35,11 +37,7 @@ export default function Hero() {
 
             {/* SECONDARY */}
             <button
-              onClick={() => {
-                document
-                  .getElementById("rab-calculator")
-                  ?.scrollIntoView({ behavior: "smooth" });
-              }}
+              onClick={() => navigate("/calculator")}
               className="px-6 py-3 rounded-lg border border-gray-300 text-gray-700 hover:bg-gray-100 transition"
             >
               Hitung Estimasi Biaya Awal
