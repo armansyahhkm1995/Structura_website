@@ -17,8 +17,10 @@ export default function Contact() {
             transition={{ duration: 0.6 }}
             className="text-4xl md:text-5xl font-semibold mb-6 leading-tight"
           >
-            Konsultasikan Rencana Proyek Anda
-            <span className="text-primary"> dengan Lebih Terarah</span>
+            <strong>
+              Konsultasikan Rencana Proyek Anda
+              <em className="text-primary"> dengan Lebih Terarah</em>
+            </strong>
           </motion.h1>
 
           <motion.p

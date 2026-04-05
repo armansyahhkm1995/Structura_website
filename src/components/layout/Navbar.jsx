@@ -130,6 +130,17 @@ export default function Navbar() {
       >
         <div className="space-y-4">
           <NavLink
+            to="/calculator"
+            onClick={() => setIsOpen(false)}
+            className={({ isActive }) =>
+              `block ${
+                isActive ? "text-blue-500 font-medium" : "text-gray-700"
+              }`
+            }
+          >
+            Calculator
+          </NavLink>
+          <NavLink
             to="/services"
             onClick={() => setIsOpen(false)}
             className={({ isActive }) =>

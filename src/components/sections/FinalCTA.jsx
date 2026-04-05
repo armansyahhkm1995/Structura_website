@@ -1,7 +1,9 @@
 import { whatsappLink } from "../../utils/whatsapp";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 export default function FinalCTA() {
+  const navigate = useNavigate();
   return (
     <section className="py-24 bg-gradient-to-br from-primary to-blue-700 text-white">
       <div className="max-w-4xl mx-auto px-6 text-left md:text-center">
@@ -44,7 +46,10 @@ export default function FinalCTA() {
           </a>
 
           {/* SECONDARY */}
-          <button className="border border-white/40 px-8 py-4 rounded-xl text-white hover:bg-white/10 transition text-center">
+          <button
+            onClick={() => navigate("/portfolio")}
+            className="border border-white/40 px-8 py-4 rounded-xl text-white hover:bg-white/10 transition text-center"
+          >
             Lihat Portfolio kami
           </button>
         </motion.div>

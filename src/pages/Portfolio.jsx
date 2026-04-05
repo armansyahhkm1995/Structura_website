@@ -27,12 +27,6 @@ export default function Portfolio() {
   const [activeTab, setActiveTab] = useState("infrastruktur");
   const [selectedIndex, setSelectedIndex] = useState(null);
 
-  const tabs = [
-    { id: "rumah", label: "Rumah" },
-    { id: "komersial", label: "Komersial" },
-    { id: "infrastruktur", label: "Infrastruktur" },
-  ];
-
   const data = {
     infrastruktur: [
       {
@@ -329,13 +323,15 @@ export default function Portfolio() {
           <motion.h1
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-4xl md:text-5xl font-semibold mb-6"
+            className="text-4xl md:text-5xl font-semibold mb-6 text-left md:text-center"
           >
-            Portofolio Proyek
-            <span className="text-primary"> Perencanaan Biaya</span>
+            <strong>
+              Portofolio Proyek
+              <em className="text-primary"> Perencanaan Biaya</em>
+            </strong>
           </motion.h1>
 
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <p className="text-gray-600 max-w-2xl md:pl-25 text-left md:text-center">
             Bagaimana kami membantu klien memahami dan mengontrol biaya proyek
             sebelum pembangunan dimulai.
           </p>

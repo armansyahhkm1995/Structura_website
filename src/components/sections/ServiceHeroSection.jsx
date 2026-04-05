@@ -14,8 +14,10 @@ export default function ServiceHeroSection() {
             transition={{ duration: 0.6 }}
             className="text-4xl md:text-5xl font-semibold mb-6 leading-tight"
           >
-            Perencanaan Biaya Konstruksi yang
-            <span className="text-primary"> Terstruktur & Terukur</span>
+            <strong>
+              Perencanaan Biaya Konstruksi yang
+              <em className="text-primary"> Terstruktur & Terukur</em>
+            </strong>
           </motion.h1>
 
           <motion.p
