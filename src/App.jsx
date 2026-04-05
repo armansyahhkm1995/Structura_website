@@ -1,23 +1,32 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import MainLayout from "./components/layout/MainLayout"
+import MainLayout from "./components/layout/MainLayout";
 
-import Home from "./pages/Home"
-import Services from "./pages/Services"
-import Portfolio from "./pages/Portfolio"
-import About from "./pages/About"
-import Contact from "./pages/Contact"
+import Home from "./pages/Home";
+import Services from "./pages/Services";
+import Portfolio from "./pages/Portfolio";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Calculator from "./pages/Calculator";
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-
         <Route
           path="/"
           element={
             <MainLayout>
               <Home />
+            </MainLayout>
+          }
+        />
+
+        <Route
+          path="/calculator"
+          element={
+            <MainLayout>
+              <Calculator />
             </MainLayout>
           }
         />
@@ -57,8 +66,7 @@ export default function App() {
             </MainLayout>
           }
         />
-
       </Routes>
     </BrowserRouter>
-  )
+  );
 }

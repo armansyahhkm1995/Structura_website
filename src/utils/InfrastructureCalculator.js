@@ -58,11 +58,11 @@ function getComplexityFactor(kondisi) {
 // ==========================
 function getLocationFactor(lokasi) {
   switch (lokasi) {
-    case "kecil":
+    case "Kota kecil":
       return 0.9;
-    case "sedang":
+    case "Kota sedang":
       return 1.0;
-    case "besar":
+    case "Kota besar":
       return 1.15;
     default:
       return 1.0;
@@ -108,7 +108,7 @@ function validateInput(input) {
     throw new Error("Jenis infrastruktur wajib diisi");
   }
 
-  if (!["kecil", "sedang", "besar"].includes(lokasi)) {
+  if (!["Kota kecil", "Kota sedang", "Kota besar"].includes(lokasi)) {
     throw new Error("Lokasi tidak valid");
   }
 
@@ -215,6 +215,4 @@ function calculateRABInfra(input) {
 // ==========================
 // EXPORT
 // ==========================
-module.exports = {
-  calculateRABInfra,
-};
+export { calculateRABInfra };

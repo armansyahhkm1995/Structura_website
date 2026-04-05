@@ -22,11 +22,11 @@ function getLuasFactor(luas) {
 // ==========================
 function getQualityFactor(kualitas) {
   switch (kualitas) {
-    case "sederhana":
+    case "Sederhana":
       return 0.85;
-    case "menengah":
+    case "Menengah":
       return 1.0;
-    case "premium":
+    case "Premium":
       return 1.3;
     default:
       return 1.0;
@@ -48,11 +48,11 @@ function getLantaiFactor(lantai) {
 // ==========================
 function getLocationFactor(lokasi) {
   switch (lokasi) {
-    case "kecil":
+    case "Kota kecil":
       return 0.9;
-    case "sedang":
+    case "Kota sedang":
       return 1.0;
-    case "besar":
+    case "Kota besar":
       return 1.15;
     default:
       return 1.0;
@@ -71,11 +71,11 @@ function validateInput({ luas, lantai, kualitas, lokasi }) {
     throw new Error("Lantai hanya boleh 1, 2, atau 3");
   }
 
-  if (!["sederhana", "menengah", "premium"].includes(kualitas)) {
+  if (!["Sederhana", "Menengah", "Premium"].includes(kualitas)) {
     throw new Error("Kualitas tidak valid");
   }
 
-  if (!["kecil", "sedang", "besar"].includes(lokasi)) {
+  if (!["Kota kecil", "Kota sedang", "Kota besar"].includes(lokasi)) {
     throw new Error("Lokasi tidak valid");
   }
 }
@@ -177,6 +177,4 @@ function calculateRAB(input) {
 // ==========================
 // EXPORT
 // ==========================
-module.exports = {
-  calculateRAB,
-};
+export { calculateRAB };

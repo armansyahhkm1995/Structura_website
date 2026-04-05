@@ -24,7 +24,9 @@ export default function Navbar() {
                 ? "text-blue-500 font-medium"
                 : "text-gray-700 hover:text-gray-900"
             }
-          ></NavLink>
+          >
+            Calculator
+          </NavLink>
           <NavLink
             to="/services"
             className={({ isActive }) =>
