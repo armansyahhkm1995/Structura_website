@@ -1,8 +1,10 @@
 import { Mail, Phone, MapPin } from "lucide-react";
 import LogoWhite from "../../assets/scc_logo_white.webp";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Footer() {
+  const navigate = useNavigate();
   return (
     <footer className="bg-gray-900 text-gray-300">
       <div className="max-w-7xl mx-auto px-6 py-16">
@@ -35,8 +37,12 @@ export default function Footer() {
                   Home
                 </a>
               </li>
+
               <li className="text-left md:text-center">
-                <a href="#services" className="hover:text-white transition">
+                <a
+                  onClick={() => navigate("/calculator")}
+                  className="hover:text-white transition"
+                >
                   Services
                 </a>
               </li>
