@@ -1,31 +1,7 @@
 import { Link } from "react-router-dom";
-
-import BoQ_preparation from "../../assets/BoQ_preparation.webp";
-import construction_cost_advisory from "../../assets/construction_cost_advisory.webp";
-import cost_planning from "../../assets/cost_planning.webp";
+import { solutions } from "../../data/solutions";
 
 export default function SolutionSection() {
-  const solutions = [
-    {
-      title: "Cost Planning",
-      desc: "Menyusun estimasi biaya awal berdasarkan kebutuhan proyek dan kondisi nyata, sehingga Anda memiliki gambaran total biaya sebelum pembangunan dimulai.",
-      img: cost_planning,
-      link: "/services#cost-planning",
-    },
-    {
-      title: "BOQ Development",
-      desc: "Membuat rincian anggaran yang detail dan terukur untuk setiap pekerjaan, agar biaya lebih transparan, terkontrol, dan mudah divalidasi.",
-      img: BoQ_preparation,
-      link: "/services#boq",
-    },
-    {
-      title: "Cost Advisory & Consultation",
-      desc: "Memberikan insight dan rekomendasi agar setiap keputusan tetap efisien secara biaya, membantu Anda memilih langkah terbaik dalam proyek.",
-      img: construction_cost_advisory,
-      link: "/services#advisory",
-    },
-  ];
-
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6">

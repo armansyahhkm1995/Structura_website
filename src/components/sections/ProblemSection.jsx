@@ -1,14 +1,7 @@
 import problem_section_image from "../../assets/problem_section_image.webp";
+import { problems } from "../../data/problems";
 
 export default function ProblemSection() {
-  const problems = [
-    "Estimasi biaya di awal tidak mencerminkan kondisi sebenarnya",
-    "Tidak ada gambaran jelas total biaya sebelum proyek dimulai",
-    "Perubahan desain atau material yang tidak terkontrol",
-    "Ketergantungan penuh pada kontraktor tanpa validasi independen",
-    "Keputusan diambil tanpa analisis biaya yang terstruktur",
-  ];
-
   return (
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
