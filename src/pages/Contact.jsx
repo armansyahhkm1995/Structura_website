@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { MapPin, FileText, Layers, DollarSign } from "lucide-react";
-import { whatsappLink } from "../utils/whatsapp";
-import FinalCTA from "../components/sections/FinalCTA";
+import FinalCTASection from "../components/sections/FinalCTASection";
 
 export default function Contact() {
   return (
@@ -164,7 +163,7 @@ export default function Contact() {
       </section>
 
       {/* ================= FINAL CTA ================= */}
-      <FinalCTA />
+      <FinalCTASection />
     </div>
   );
 }

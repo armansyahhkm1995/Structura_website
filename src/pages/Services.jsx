@@ -1,6 +1,6 @@
 import ServiceHeroSection from "../components/sections/ServiceHeroSection";
 import ServiceSection from "../components/sections/ServiceSection";
-import FinalCTA from "../components/sections/FinalCTA";
+import FinalCTASection from "../components/sections/FinalCTASection";
 
 import cost_construction_planning from "../assets/services/cost_construction_planning.webp";
 import rab from "../assets/services/rab.webp";
@@ -53,7 +53,7 @@ export default function ServicesPage() {
         image={cost_advisory_consultation}
       />
 
-      <FinalCTA />
+      <FinalCTASection />
     </div>
   );
 }

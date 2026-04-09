@@ -1,13 +1,13 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 
-export default function FAQItem({ faq, openId, setOpenId }) {
+export default function FAQItem({ faq, openId }) {
   const isOpen = openId === faq.id;
 
   return (
     <motion.div
       layout
-      onClick={() => setOpenId(isOpen ? null : faq.id)}
+      onClick={() => toggleFAQ(faq.id)}
       className={`bg-white border rounded-2xl p-6 shadow-sm transition-all duration-300 hover:shadow-lg cursor-pointer ${
         isOpen ? "border-primary/40 bg-primary/5" : ""
       }`}

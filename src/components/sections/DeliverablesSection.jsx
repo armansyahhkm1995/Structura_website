@@ -1,4 +1,4 @@
-import { items } from "../../data/whatYouGet";
+import { items } from "../../data/deliverables";
 
 export default function WhatYouGet() {
   return (

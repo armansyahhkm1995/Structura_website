@@ -1,46 +1,9 @@
-import { motion, useAnimation } from "framer-motion";
-import { useEffect } from "react";
+import { motion } from "framer-motion";
 import TestimonialCard from "../ui/TestimonialCard";
+import useMarquee from "../hooks/useMarquee";
 
 export default function MarqueeRow({ items, direction }) {
-  const controls = useAnimation();
-
-  const duration = 30; // makin besar makin lambat
-
-  useEffect(() => {
-    controls.start({
-      x: direction === "right" ? ["-50%", "0%"] : ["0%", "-50%"],
-      transition: {
-        repeat: Infinity,
-        duration,
-        ease: "linear",
-      },
-    });
-  }, [controls, direction]);
-
-  const handleHoverStart = () => {
-    controls.stop();
-    controls.start({
-      x: direction === "right" ? ["-50%", "0%"] : ["0%", "-50%"],
-      transition: {
-        repeat: Infinity,
-        duration: duration * 2, // slowdown
-        ease: "linear",
-      },
-    });
-  };
-
-  const handleHoverEnd = () => {
-    controls.stop();
-    controls.start({
-      x: direction === "right" ? ["-50%", "0%"] : ["0%", "-50%"],
-      transition: {
-        repeat: Infinity,
-        duration,
-        ease: "linear",
-      },
-    });
-  };
+  const { controls, handleHoverStart, handleHoverEnd } = useMarquee(direction);
 
   return (
     <div

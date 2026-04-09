@@ -1,11 +1,9 @@
-import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { ChevronDown } from "lucide-react";
 import { faqs } from "../../data/faq";
 import FAQItem from "../ui/FAQItem";
+import useFAQ from "../hooks/useFAQ";
 
 export default function FAQSection() {
-  const [openId, setOpenId] = useState(null);
+  const { openId, toggleFAQ } = useFAQ();
 
   return (
     <section className="py-24 bg-gray-50">
@@ -32,7 +30,7 @@ export default function FAQSection() {
                   key={faq.id}
                   faq={faq}
                   openId={openId}
-                  setOpenId={setOpenId}
+                  toggleFAQ={toggleFAQ}
                 />
               ))}
           </div>
@@ -46,13 +44,13 @@ export default function FAQSection() {
                   key={faq.id}
                   faq={faq}
                   openId={openId}
-                  setOpenId={setOpenId}
+                  toggleFAQ={toggleFAQ}
                 />
               ))}
           </div>
         </div>
       </div>
-      <FAQItem faq={faqs} openId={openId} setOpenId={setOpenId} />;
+      <FAQItem faq={faqs} openId={openId} toggleFAQ={toggleFAQ} />;
     </section>
   );
 }

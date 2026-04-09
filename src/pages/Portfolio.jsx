@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import FinalCTA from "../components/sections/FinalCTA";
+import FinalCTASection from "../components/sections/FinalCTASection";
 import uin_sunan_gunung_djati from "../assets/portfolio/uin_sunan_gunung_djati/uin_sunan_gunung_djati.webp";
 import uin_groundbreaking from "../assets/portfolio/uin_sunan_gunung_djati/uin_groubdbreaking.webp";
 import uin_construction_1 from "../assets/portfolio/uin_sunan_gunung_djati/uin_construction_1.webp";
@@ -401,7 +401,7 @@ export default function Portfolio() {
         )}
       </AnimatePresence>
 
-      <FinalCTA />
+      <FinalCTASection />
     </div>
   );
 }
