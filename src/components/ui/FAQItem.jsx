@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 
-export default function FAQItem({ faq, openId }) {
+export default function FAQItem({ faq, openId, toggleFAQ }) {
   const isOpen = openId === faq.id;
 
   return (
@@ -14,7 +14,7 @@ export default function FAQItem({ faq, openId }) {
     >
       {/* HEADER */}
       <div className="flex items-start justify-between gap-4">
-        <h3 className="font-medium text-gray-900">{faq.question}</h3>
+        <h3 className="font-medium text-gray-900 text-left">{faq.question}</h3>
 
         {/* ICON */}
         <motion.div

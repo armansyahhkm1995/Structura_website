@@ -50,7 +50,6 @@ export default function FAQSection() {
           </div>
         </div>
       </div>
-      <FAQItem faq={faqs} openId={openId} toggleFAQ={toggleFAQ} />;
     </section>
   );
 }
