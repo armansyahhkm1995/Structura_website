@@ -36,12 +36,12 @@ export default function Hero() {
             </a>
 
             {/* SECONDARY */}
-            <button
+            {/* <button
               onClick={() => navigate("/calculator")}
               className="px-6 py-3 rounded-lg border border-gray-300 text-gray-700 hover:bg-gray-100 transition"
             >
               Hitung Estimasi Biaya Awal
-            </button>
+            </button> */}
           </div>
         </div>
 

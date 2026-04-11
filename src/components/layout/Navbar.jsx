@@ -17,7 +17,7 @@ export default function Navbar() {
 
         {/* DESKTOP MENU */}
         <div className="hidden md:flex items-center gap-8 text-sm">
-          <NavLink
+          {/* <NavLink
             to="/calculator"
             className={({ isActive }) =>
               isActive
@@ -26,7 +26,7 @@ export default function Navbar() {
             }
           >
             Calculator
-          </NavLink>
+          </NavLink> */}
           <NavLink
             to="/services"
             className={({ isActive }) =>

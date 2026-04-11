@@ -93,7 +93,7 @@ export default function ProjectTypes() {
         </div>
 
         {/* ✅ CTA DINAMIS */}
-        <div className="mt-12 text-center">
+        {/* <div className="mt-12 text-center">
           <button
             onClick={() =>
               navigate(`/calculator?type=${CTA_CONFIG[activeTab].type}`)
@@ -102,7 +102,7 @@ export default function ProjectTypes() {
           >
             {CTA_CONFIG[activeTab].label}
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

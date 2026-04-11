@@ -29,6 +29,8 @@ import panorama_bukit_cinere_1 from "../assets/portfolio/panorama_bukit_cinere/p
 import panorama_bukit_cinere_2 from "../assets/portfolio/panorama_bukit_cinere/no_image.webp";
 import tpk_sarimukti_1 from "../assets/portfolio/tpk_sarimukti/tpk_sarimukti_1.webp";
 import tpk_sarimukti_2 from "../assets/portfolio/panorama_bukit_cinere/no_image.webp";
+import rehabilitasi_sarana_prasarana_sekolah_sukabumi_1 from "../assets/portfolio/rehabilitasi_sarana_prasarana_sekolah_sukabumi/rehabilitasi_sarana_prasarana_sekolah_sukabumi_1.webp";
+import rehabilitasi_sarana_prasarana_sekolah_sukabumi_2 from "../assets/portfolio/panorama_bukit_cinere/no_image.webp";
 
 export const data = {
   infrastruktur: [
@@ -580,6 +582,103 @@ export const data = {
 
       client_impact: [
         "Dengan perencanaan yang matang, klien memperoleh kejelasan dalam investasi proyek serta potensi nilai ekonomi dari pengolahan sampah, sekaligus mendukung pengelolaan lingkungan yang berkelanjutan.",
+      ],
+    },
+    {
+      // ================= Perencanaan RAB Paket Rehabilitasi ±20 Sekolah =================
+
+      title: "Perencanaan RAB Paket Rehabilitasi ±20 Sekolah",
+      subtitle:
+        "Rehabilitasi dan Renovasi Sarana Prasarana Sekolah - Kab. Sukabumi",
+      location: "Sukabumi - Jawa Barat",
+      size: "Multi Lokasi (±20 Sekolah)",
+      type: "Fasilitas Pendidikan",
+      value: "Paket Proyek Skala Kabupaten",
+      year: "2023",
+      image: rehabilitasi_sarana_prasarana_sekolah_sukabumi_1,
+      images: [
+        rehabilitasi_sarana_prasarana_sekolah_sukabumi_1,
+        rehabilitasi_sarana_prasarana_sekolah_sukabumi_2,
+      ],
+      badge: ["Government Project", "Multi-Site Project"],
+
+      // ================= OVERVIEW =================
+      overview:
+        "Proyek ini merupakan perencanaan rehabilitasi dan renovasi sarana prasarana sekolah yang tersebar di berbagai wilayah Kabupaten Sukabumi. Paket pekerjaan mencakup puluhan titik lokasi dengan karakteristik kondisi bangunan yang berbeda, sehingga membutuhkan pendekatan perencanaan biaya yang sistematis dan terstandarisasi.",
+
+      keywords: [
+        "Rehabilitasi bangunan sekolah",
+        "Renovasi multi lokasi",
+        "Paket proyek pemerintah daerah",
+        "Standarisasi RAB sekolah",
+        "Efisiensi biaya rehabilitasi",
+      ],
+
+      value:
+        "Perencanaan biaya yang terstruktur pada proyek multi-lokasi memungkinkan kontrol anggaran yang konsisten dan siap digunakan untuk proses tender kapan saja.",
+
+      // ================= SCOPE & APPROACH =================
+      context: [
+        "Proyek ini mencakup rehabilitasi dan renovasi pada banyak sekolah dengan kondisi existing yang berbeda-beda, mulai dari kerusakan ringan hingga kebutuhan perbaikan struktural.",
+        "Sebagai proyek pemerintah daerah, diperlukan standar perencanaan biaya yang seragam namun tetap fleksibel terhadap kondisi tiap lokasi.",
+      ],
+
+      scope: [
+        "Penyusunan RAB (Rencana Anggaran Biaya) untuk seluruh lokasi",
+        "Penyusunan BOQ (Bill of Quantity) per sekolah",
+        "Analisa harga satuan pekerjaan (HSPK)",
+        "Perhitungan TKDN (Tingkat Komponen Dalam Negeri)",
+        "Breakdown material, upah, dan peralatan",
+      ],
+
+      approach: [
+        "Pendekatan berbasis quantity take-off untuk setiap lokasi",
+        "Standarisasi item pekerjaan antar sekolah",
+        "Penyesuaian volume berdasarkan kondisi existing masing-masing lokasi",
+        "Integrasi data dalam format rekapitulasi paket proyek",
+        "Penyusunan analisa harga satuan berbasis data aktual",
+      ],
+
+      // ================= CHALLENGE & SOLUTION =================
+      challenge_introduction: [
+        "Proyek dengan banyak titik lokasi menghadirkan tantangan tersendiri dalam menjaga konsistensi dan akurasi perencanaan biaya, terutama ketika kondisi lapangan tidak seragam.",
+      ],
+
+      challenge: [
+        "Banyaknya lokasi proyek dengan kondisi berbeda",
+        "Variasi tingkat kerusakan bangunan",
+        "Kebutuhan standarisasi antar RAB",
+        "Kompleksitas rekapitulasi dalam satu paket proyek",
+        "Penyesuaian harga satuan terhadap kondisi lokal",
+      ],
+
+      solution: [
+        "Penyusunan struktur BOQ yang seragam untuk semua lokasi",
+        "Pengelompokan pekerjaan berdasarkan jenis rehabilitasi",
+        "Pembuatan analisa harga satuan terintegrasi",
+        "Rekapitulasi biaya dalam satu sistem paket proyek",
+        "Penyesuaian volume secara spesifik per lokasi",
+      ],
+
+      challenge_insight: [
+        "Pendekatan ini memungkinkan proyek multi-lokasi tetap memiliki struktur biaya yang konsisten, sekaligus fleksibel dalam mengakomodasi kondisi spesifik di lapangan.",
+      ],
+
+      // ================= IMPACT =================
+      impact_introduction: [
+        "Hasil perencanaan ini menghasilkan dokumen teknis yang siap digunakan untuk berbagai tahapan lanjutan proyek, terutama dalam proses pengadaan dan tender.",
+      ],
+
+      impact: [
+        "Tersusun RAB lengkap untuk ±20 lokasi sekolah",
+        "Struktur BOQ terstandarisasi",
+        "Analisa harga satuan komprehensif",
+        "Dokumen siap digunakan untuk proses tender",
+        "Mempermudah evaluasi biaya antar lokasi",
+      ],
+
+      client_impact: [
+        "Dengan dokumen perencanaan yang lengkap dan terstruktur, pihak pemilik proyek dapat langsung melanjutkan ke tahap pengadaan tanpa perlu revisi besar, serta memiliki kontrol penuh terhadap distribusi anggaran di seluruh lokasi proyek.",
       ],
     },
   ],
