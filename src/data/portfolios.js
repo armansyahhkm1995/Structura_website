@@ -19,6 +19,16 @@ import preservasi_jalan_palu_3 from "../assets/portfolio/preservasi_jalan_palu/p
 import preservasi_jalan_palu_4 from "../assets/portfolio/preservasi_jalan_palu/preservasi_jalan_palu_4.webp";
 import preservasi_jalan_palu_5 from "../assets/portfolio/preservasi_jalan_palu/preservasi_jalan_palu_5.webp";
 import preservasi_jalan_palu_6 from "../assets/portfolio/preservasi_jalan_palu/preservasi_jalan_palu_6.webp";
+import sudin_kebersihan_jakbar_1 from "../assets/portfolio/gedung_sudin_kebersihan_jakbar/gedung_sudin_kebersihan_jakbar_1.webp";
+import sudin_kebersihan_jakbar_2 from "../assets/portfolio/gedung_sudin_kebersihan_jakbar/gedung_sudin_kebersihan_jakbar_2.webp";
+import sudin_kebersihan_jakbar_3 from "../assets/portfolio/gedung_sudin_kebersihan_jakbar/gedung_sudin_kebersihan_jakbar_3.webp";
+import sudin_kebersihan_jakbar_4 from "../assets/portfolio/gedung_sudin_kebersihan_jakbar/gedung_sudin_kebersihan_jakbar_4.webp";
+import sudin_kebersihan_jakbar_5 from "../assets/portfolio/gedung_sudin_kebersihan_jakbar/gedung_sudin_kebersihan_jakbar_5.webp";
+import sudin_kebersihan_jakbar_6 from "../assets/portfolio/gedung_sudin_kebersihan_jakbar/gedung_sudin_kebersihan_jakbar_6.webp";
+import panorama_bukit_cinere_1 from "../assets/portfolio/panorama_bukit_cinere/panorama_bukit_cinere_1.webp";
+import panorama_bukit_cinere_2 from "../assets/portfolio/panorama_bukit_cinere/no_image.webp";
+import tpk_sarimukti_1 from "../assets/portfolio/tpk_sarimukti/tpk_sarimukti_1.webp";
+import tpk_sarimukti_2 from "../assets/portfolio/panorama_bukit_cinere/no_image.webp";
 
 export const data = {
   infrastruktur: [
@@ -298,6 +308,278 @@ export const data = {
 
       client_impact: [
         "Klien memperoleh strategi penanganan yang lebih efektif dan efisien, sehingga anggaran yang tersedia dapat dimanfaatkan secara optimal untuk memberikan dampak perbaikan yang maksimal pada kondisi jalan.",
+      ],
+    },
+    {
+      // ================= Perencanaan Biaya & Dukungan Pelaksanaan Proyek Gedung Pemerintah =================
+
+      title:
+        "Perencanaan Biaya & Dukungan Pelaksanaan Proyek Gedung Pemerintah",
+      subtitle:
+        "Pembangunan Gedung Utama & Sarana Lainnya - SUDIN Kebersihan Jakarta Barat",
+      location: "Jakarta Barat - DKI Jakarta",
+      size: "Multi-area",
+      type: "Gedung Pemerintah",
+      value: "Rp 19,25 Miliar",
+      year: "2009",
+      image: sudin_kebersihan_jakbar_1,
+      images: [
+        sudin_kebersihan_jakbar_1,
+        sudin_kebersihan_jakbar_2,
+        sudin_kebersihan_jakbar_3,
+        sudin_kebersihan_jakbar_4,
+        sudin_kebersihan_jakbar_5,
+        sudin_kebersihan_jakbar_6,
+      ],
+      badge: ["Government Project", "Execution Monitoring"],
+
+      // ================= OVERVIEW TAB =================
+      overview:
+        "Proyek pembangunan Gedung SUDIN Kebersihan Jakarta Barat merupakan bagian dari pengembangan fasilitas operasional pemerintah daerah, yang mencakup pembangunan gedung utama beserta sarana pendukungnya. Proyek ini melibatkan perencanaan biaya serta dukungan terhadap pelaksanaan di lapangan melalui koordinasi resource dan monitoring progres.",
+
+      keywords: [
+        "Gedung operasional pemerintah",
+        "Fasilitas kebersihan kota",
+        "Koordinasi lapangan",
+        "Monitoring progres mingguan",
+      ],
+
+      value:
+        "Integrasi antara perencanaan biaya dan pemahaman kondisi lapangan memungkinkan kontrol proyek yang lebih adaptif dan realistis.",
+
+      // ================= SCOPE TAB =================
+      context: [
+        "Dalam proyek ini, perencanaan biaya tidak hanya berfokus pada penyusunan estimasi, tetapi juga mempertimbangkan kebutuhan sumber daya serta kondisi pelaksanaan di lapangan untuk memastikan kesesuaian antara perencanaan dan realisasi.",
+      ],
+
+      scope: [
+        "Penyusunan RAB (Rencana Anggaran Biaya)",
+        "Penyusunan BOQ (Bill of Quantity)",
+        "Perencanaan kebutuhan material, alat, dan tenaga kerja",
+        "Koordinasi dengan tim pelaksana proyek",
+      ],
+
+      approach: [
+        "Perhitungan berbasis volume pekerjaan (quantity take-off)",
+        "Perencanaan resource: bahan, alat, dan manpower",
+        "Monitoring progres mingguan berdasarkan laporan visual",
+        "Penyesuaian perencanaan dengan kondisi lapangan",
+      ],
+
+      // ================= CHALLENGE TAB =================
+      challenge_introduction: [
+        "Sebagai proyek fasilitas pemerintah yang berjalan secara bertahap, tantangan utama terletak pada menjaga konsistensi antara perencanaan awal dengan dinamika pelaksanaan di lapangan.",
+      ],
+
+      challenge: [
+        "Koordinasi antara perencanaan dan pelaksanaan lapangan",
+        "Perubahan kondisi lapangan selama konstruksi",
+        "Kebutuhan resource yang harus selalu sinkron dengan progres",
+        "Monitoring progres secara berkala",
+      ],
+
+      solution: [
+        "Penyusunan perencanaan resource secara detail",
+        "Penggunaan laporan visual mingguan untuk tracking progres",
+        "Penyesuaian kebutuhan material dan tenaga kerja",
+        "Koordinasi intensif dengan tim proyek",
+      ],
+
+      challenge_insight: [
+        "Pendekatan berbasis monitoring lapangan memungkinkan pengambilan keputusan yang lebih cepat dan akurat dalam menghadapi perubahan selama proses konstruksi.",
+      ],
+
+      // ================= IMPACT TAB =================
+      impact_introduction: [
+        "Pendekatan yang menggabungkan perencanaan biaya dengan monitoring pelaksanaan memberikan dampak positif terhadap kelancaran proyek.",
+      ],
+
+      impact: [
+        "Perencanaan biaya lebih adaptif terhadap kondisi lapangan",
+        "Koordinasi resource lebih terarah",
+        "Progres proyek dapat dimonitor secara berkala",
+      ],
+
+      client_impact: [
+        "Dengan adanya kontrol yang lebih baik terhadap resource dan progres, proyek dapat berjalan lebih efisien serta meminimalkan potensi keterlambatan maupun pemborosan biaya.",
+      ],
+    },
+    {
+      // ================= Perencanaan Biaya & Dukungan Pelaksanaan Proyek Gedung Pemerintah =================
+
+      title: "Penyusunan RAB Komprehensif untuk Proyek Perumahan",
+      subtitle: "Pembangunan Panorama Bukit Cinere",
+      location: "Cinere - Depok",
+      size: "Multi-area",
+      type: "Perumahan",
+      value: "Rp 2,103 Miliar",
+      year: "NaN",
+      image: panorama_bukit_cinere_1,
+      images: [panorama_bukit_cinere_1, panorama_bukit_cinere_2],
+      badge: ["Cost Engineering", "Residential Project"],
+
+      // OVERVIEW
+      overview:
+        "Proyek Panorama Bukit Cinere merupakan pengembangan kawasan perumahan yang membutuhkan perencanaan biaya secara komprehensif. Fokus utama dalam proyek ini adalah penyusunan RAB dan BOQ secara detail untuk mendukung perencanaan dan pengambilan keputusan investasi.",
+
+      keywords: [
+        "Perumahan",
+        "RAB detail",
+        "BOQ komprehensif",
+        "Cost planning",
+      ],
+
+      value:
+        "Struktur biaya yang detail dan sistematis memberikan kejelasan dalam pengambilan keputusan investasi proyek.",
+
+      // SCOPE
+      context: [
+        "Dalam proyek ini, perencanaan biaya menjadi komponen utama yang menentukan kelayakan dan arah pengembangan proyek perumahan.",
+      ],
+
+      scope: [
+        "Penyusunan RAB lengkap",
+        "Penyusunan BOQ detail",
+        "Analisis volume pekerjaan",
+        "Cost breakdown per item pekerjaan",
+      ],
+
+      approach: [
+        "Perhitungan berbasis quantity take-off",
+        "Breakdown biaya hingga level item",
+        "Pengelompokan pekerjaan per kategori",
+        "Penyusunan struktur biaya sistematis",
+      ],
+
+      // CHALLENGE
+      challenge_introduction: [
+        "Proyek perumahan dengan banyak unit dan komponen pekerjaan menuntut tingkat ketelitian tinggi dalam penyusunan RAB.",
+      ],
+
+      challenge: [
+        "Jumlah item pekerjaan yang besar",
+        "Kebutuhan akurasi tinggi",
+        "Struktur biaya yang kompleks",
+      ],
+
+      solution: [
+        "Penyusunan BOQ detail per item",
+        "Strukturisasi biaya yang sistematis",
+        "Validasi perhitungan volume",
+      ],
+
+      challenge_insight: [
+        "Ketelitian dalam penyusunan RAB menjadi faktor kunci dalam menjaga akurasi dan kredibilitas estimasi biaya proyek.",
+      ],
+
+      // IMPACT
+      impact_introduction: [
+        "Perencanaan biaya yang detail memberikan dasar yang kuat dalam pengembangan proyek perumahan.",
+      ],
+
+      impact: [
+        "RAB tersusun secara komprehensif",
+        "Struktur biaya jelas dan transparan",
+        "Mendukung analisis kelayakan proyek",
+      ],
+
+      client_impact: [
+        "Dengan struktur biaya yang jelas, pengembang dapat mengambil keputusan investasi dengan lebih percaya diri dan terukur.",
+      ],
+    },
+    {
+      // ================= TPK Sarimukti =================
+
+      title: "Perencanaan Sistem Pengolahan Sampah Terintegrasi",
+      subtitle:
+        "Perluasan TPPS Sarimukti – Kecamatan Cipatat, Kabupaten Bandung Barat",
+      location: "Bandung Barat - Jawa Barat",
+      size: "Multi-area",
+      type: "Fasilitas Pengolahan Sampah (TPPS)",
+      value: "Rp 20,443 Miliar",
+      year: "Perencanaan",
+      image: tpk_sarimukti_1,
+      images: [tpk_sarimukti_1, tpk_sarimukti_2],
+      badge: ["Waste Management", "Sustainability", "High Complexity"],
+
+      // ================= OVERVIEW =================
+
+      overview:
+        "Proyek ini merupakan perencanaan perluasan fasilitas pengolahan sampah TPPS Sarimukti dengan pendekatan sistem terintegrasi, yang dirancang untuk mengolah sampah campuran menjadi produk bernilai seperti RDF (Refuse Derived Fuel), biomassa, dan pupuk organik.",
+
+      keywords: [
+        "Pengolahan sampah terintegrasi",
+        "RDF (Refuse Derived Fuel)",
+        "Sistem conveyor & mesin pemilah",
+        "Biokonversi organik (maggot)",
+        "Fasilitas TPPS skala kawasan",
+      ],
+
+      value:
+        "Perencanaan sistem pengolahan yang terstruktur memungkinkan transformasi sampah menjadi sumber energi dan produk bernilai ekonomis.",
+
+      // ================= CONTEXT =================
+
+      context: [
+        "Volume sampah yang masuk lebih cepat dibandingkan kapasitas pengolahan menuntut sistem yang efisien dan berkelanjutan.",
+        "Diperlukan perencanaan fasilitas yang mampu beroperasi 24 jam dengan sistem pengolahan yang terintegrasi.",
+        "Pengolahan sampah tidak hanya berfokus pada pembuangan, tetapi juga pada pemanfaatan kembali sebagai energi dan material bernilai.",
+      ],
+
+      scope: [
+        "Penyusunan RAB (Rencana Anggaran Biaya)",
+        "Perencanaan sistem pengolahan sampah terpadu",
+        "Analisis kapasitas mesin & alur produksi",
+        "Perencanaan fasilitas pendukung (area, saluran, utilitas)",
+      ],
+
+      approach: [
+        "Pendekatan berbasis alur proses (end-to-end waste processing)",
+        "Analisis kapasitas: input 20–25 ton/hari",
+        "Pemilahan bertahap: high value, organik, dan RDF",
+        "Integrasi mesin: conveyor, shredder, crusher, dan pengering",
+        "Perencanaan output multi-produk: energi, biomassa, dan pupuk",
+      ],
+
+      // ================= CHALLENGE =================
+
+      challenge_introduction: [
+        "Pengolahan sampah dalam skala kawasan menghadirkan tantangan kompleks, mulai dari variasi jenis sampah hingga kebutuhan integrasi sistem mesin dan alur operasional yang efisien.",
+      ],
+
+      challenge: [
+        "Volume sampah campuran dengan komposisi yang tidak seragam",
+        "Perbedaan kecepatan antara pengiriman dan pengolahan sampah",
+        "Kebutuhan sistem yang mampu beroperasi 24 jam",
+        "Integrasi berbagai mesin dalam satu alur produksi",
+      ],
+
+      solution: [
+        "Perancangan alur conveyor terintegrasi dari input hingga output",
+        "Pemilahan bertahap untuk memaksimalkan nilai sampah",
+        "Penggunaan mesin shredder dan crusher untuk optimalisasi ukuran material",
+        "Pengolahan organik melalui biokonversi dan RDF untuk energi",
+      ],
+
+      challenge_insight: [
+        "Pendekatan sistematis ini memastikan setiap jenis sampah memiliki jalur pengolahan yang optimal, sehingga meningkatkan efisiensi dan nilai output secara keseluruhan.",
+      ],
+
+      // ================= IMPACT =================
+
+      impact_introduction: [
+        "Hasil perencanaan ini memberikan gambaran menyeluruh terhadap sistem pengolahan sampah yang tidak hanya efisien, tetapi juga berorientasi pada keberlanjutan dan nilai ekonomi.",
+      ],
+
+      impact: [
+        "Kapasitas pengolahan ±20–25 ton sampah per hari",
+        "Produksi organik terpilah ±10–13 ton/hari",
+        "Output RDF ±5,4–6,3 ton/hari sebagai bahan bakar alternatif",
+        "Sistem terintegrasi dari input hingga output produk",
+      ],
+
+      client_impact: [
+        "Dengan perencanaan yang matang, klien memperoleh kejelasan dalam investasi proyek serta potensi nilai ekonomi dari pengolahan sampah, sekaligus mendukung pengelolaan lingkungan yang berkelanjutan.",
       ],
     },
   ],

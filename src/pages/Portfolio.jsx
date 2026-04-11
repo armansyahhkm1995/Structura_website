@@ -275,11 +275,6 @@ function ProjectModal({ project, onClose, projects, index, setIndex }) {
                     ))}
                   </div>
                 </div>
-
-                {/* Value */}
-                <div className="bg-gradient-to-br from-blue-50 to-white border border-blue-100 rounded-2xl p-5 text-sm text-gray-700 shadow-sm text-left">
-                  {project.value}
-                </div>
               </div>
             )}
 
