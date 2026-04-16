@@ -9,8 +9,8 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
         {/* LEFT CONTENT */}
         <div>
-          <h1 className="text-black text-4xl md:text-5xl font-semibold leading-tight mb-6 text-left">
-            <strong>
+          <h1 className="text-4xl md:text-5xl font-semibold leading-tight mb-6 text-left">
+            <strong className="text-black">
               Kendalikan Biaya Proyek Anda{" "}
               <em className="text-primary">Sejak awal</em>, Bukan Saat Sudah
               Terlambat
