@@ -3,13 +3,13 @@ export const faqs = [
     id: "faq-1",
     question: "Apakah layanan ini cocok untuk proyek saya?",
     answer:
-      "Layanan kami dirancang untuk berbagai tipe proyek, mulai dari rumah tinggal, bangunan komersial kecil hingga menengah, hingga infrastruktur skala ringan. Jika proyek Anda membutuhkan kejelasan biaya sebelum pembangunan dimulai, maka layanan ini sangat relevan.",
+      "Layanan kami dirancang untuk berbagai tipe proyek, mulai dari rumah tinggal, bangunan komersial kecil hingga menengah, hingga infrastruktur skala menengah. Jika proyek Anda membutuhkan kejelasan biaya sebelum pembangunan dimulai, maka layanan ini sangat relevan.",
   },
   {
     id: "faq-2",
     question: "Apakah saya harus sudah punya gambar desain?",
     answer:
-      "Tidak harus. Jika sudah ada gambar, kami bisa langsung menyusun RAB dan BOQ yang lebih akurat. Jika belum, kami tetap dapat membantu membuat estimasi biaya awal berbasis asumsi yang realistis.",
+      "Sebaiknya memiliki gambar desain. Jika sudah ada gambar, kami bisa langsung menyusun RAB dan BOQ yang lebih akurat. Jika belum, kami tetap dapat membantu membuat estimasi biaya awal berbasis asumsi yang realistis.",
   },
   {
     id: "faq-3",
@@ -27,7 +27,7 @@ export const faqs = [
     id: "faq-5",
     question: "Berapa lama proses pengerjaannya?",
     answer:
-      "Umumnya proyek rumah memakan waktu 3–7 hari kerja, komersial kecil 5–10 hari kerja, dan infrastruktur ringan menyesuaikan scope proyek.",
+      "Umumnya proyek rumah memakan waktu 3–7 hari kerja, komersial kecil 5–10 hari kerja, dan infrastruktur menyesuaikan scope proyek.",
   },
   {
     id: "faq-6",

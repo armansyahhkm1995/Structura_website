@@ -1,7 +1,8 @@
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Phone, MapPin } from "lucide-react";
 import LogoWhite from "../../assets/scc_logo_white.webp";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import { whatsappLink } from "../../utils/whatsapp";
 
 export default function Footer() {
   const navigate = useNavigate();
@@ -102,12 +103,18 @@ export default function Footer() {
             <div className="space-y-3 text-sm">
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
-                <span>+62 8xx xxxx xxxx</span>
+                <a
+                  href={whatsappLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  +6285974785490
+                </a>
               </div>
-              <div className="flex items-center gap-2">
+              {/* <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
                 <span>email@structura.id</span>
-              </div>
+              </div> */}
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" />
                 <span>Bandung, Indonesia</span>

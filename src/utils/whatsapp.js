@@ -27,7 +27,7 @@ Saya ingin konsultasi terkait rencana proyek saya. Berikut informasi awal proyek
 (Belum / sudah)
 
 9. Tujuan utama konsultasi:
-(Mengetahui estimasi biaya / kontrol biaya / evaluasi / dll)
+(Mengetahui estimasi biaya / kontrol biaya / evaluasi)
 
 Saya juga siap menyediakan data tambahan jika diperlukan.
 
