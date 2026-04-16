@@ -16,7 +16,7 @@ export default function Contact() {
             transition={{ duration: 0.6 }}
             className="text-4xl md:text-5xl font-semibold mb-6 leading-tight"
           >
-            <strong>
+            <strong className="text-black">
               Konsultasikan Rencana Proyek Anda
               <em className="text-primary"> dengan Lebih Terarah</em>
             </strong>
@@ -60,7 +60,7 @@ export default function Contact() {
               className="flex flex-col justify-center"
             >
               <h1 className="text-2xl font-semibold mb-4 text-left">
-                Lokasi & Konsultasi
+                <strong className="text-black">Lokasi & Konsultasi</strong>
               </h1>
 
               <p className="text-gray-600 mb-6 text-left pb-4">
@@ -93,8 +93,8 @@ export default function Contact() {
           {/* HEADER */}
           <div className="text-left md:text-center max-w-3xl mx-auto mb-16">
             <h1 className="text-3xl font-semibold mb-4">
-              Agar Konsultasi Lebih{" "}
-              <span className="text-primary">Optimal</span>
+              <strong className="text-black">Agar Konsultasi Lebih</strong>{" "}
+              <em className="text-primary">Optimal</em>
             </h1>
             <p className="text-gray-600">
               Semakin lengkap data yang Anda miliki, semakin akurat analisis
