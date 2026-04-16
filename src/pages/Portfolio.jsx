@@ -21,7 +21,7 @@ export default function Portfolio() {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-5xl font-semibold mb-6 text-left md:text-center"
           >
-            <strong>
+            <strong className="text-black">
               Portofolio Proyek
               <em className="text-primary"> Perencanaan Biaya</em>
             </strong>

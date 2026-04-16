@@ -39,7 +39,7 @@ export default function ServiceSection({
           >
             {/* TITLE */}
             <h1 className="text-3xl md:text-4xl font-semibold leading-tight mb-6">
-              {title}
+              <strong className="text-black">{title}</strong>
             </h1>
 
             {/* DESC */}

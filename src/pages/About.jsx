@@ -14,7 +14,7 @@ export default function About() {
             transition={{ duration: 0.6 }}
             className="text-4xl md:text-5xl font-semibold leading-tight mb-6 "
           >
-            <strong>
+            <strong className="text-black">
               Membantu Anda Merencanakan Biaya Pembangunan{" "}
               <em className="text-primary">dengan Lebih Terukur</em>
             </strong>
@@ -44,7 +44,8 @@ export default function About() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-left md:text-center max-w-3xl mx-auto mb-16">
             <h1 className="text-3xl md:text-4xl font-semibold mb-4">
-              Mengapa <span className="text-primary">Structura</span>
+              <strong className="text-black">Mengapa </strong>
+              <em className="text-primary">Structura</em>
             </h1>
             <p className="text-gray-600">
               Banyak proyek mengalami pembengkakan biaya bukan karena
@@ -92,8 +93,8 @@ export default function About() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-left md:text-center max-w-3xl mx-auto mb-16">
             <h1 className="text-3xl md:text-4xl font-semibold mb-4">
-              Pengalaman{" "}
-              <span className="text-primary">Principal Engineer</span>
+              <strong className="text-black">Pengalaman </strong>
+              <em className="text-primary">Principal Engineer</em>
             </h1>
             <p className="text-gray-600">
               Pengalaman langsung dalam berbagai proyek konstruksi selama lebih
@@ -144,7 +145,8 @@ export default function About() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-left md:text-center max-w-3xl mx-auto mb-16">
             <h1 className="text-3xl md:text-4xl font-semibold mb-4">
-              Pendekatan <span className="text-primary">Kami</span>
+              <strong className="text-black">Pendekatan </strong>
+              <em className="text-primary">Kami</em>
             </h1>
             <p className="text-gray-600">
               Kami tidak hanya memberikan angka—kami membantu Anda memahami dan
