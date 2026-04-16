@@ -7,9 +7,11 @@ export default function ProblemSection() {
       <div className="max-w-7xl mx-auto px-6">
         {/* HEADER 1 */}
         <div className="text-left md:text-center max-w-3xl mx-auto mb-16">
-          <h1 className="text-3xl md:text-4xl font-semibold mb-4">
-            Sebagian Besar Masalah Konstruksi Tidak Terjadi di Lapangan—
-            <span className="text-primary"> Tapi di Perencanaan Awal</span>
+          <h1 className=" text-3xl md:text-4xl font-semibold mb-4">
+            <strong className="text-black">
+              Sebagian Besar Masalah Konstruksi Tidak Terjadi di Lapangan—
+            </strong>
+            <em className="text-primary"> Tapi di Perencanaan Awal</em>
           </h1>
 
           <p className="text-gray-600 text-left md:text-center">
@@ -53,7 +55,8 @@ export default function ProblemSection() {
         <div className="mt-20">
           <div className="text-left md:text-center max-w-3xl mx-auto mb-12">
             <h1 className="text-2xl md:text-3xl font-semibold mb-4">
-              Dampaknya pada proyek <span className="text-primary">Anda</span>
+              <strong className="text-black">Dampaknya pada proyek </strong>
+              <em className="text-primary">Anda</em>
             </h1>
             <p className="text-gray-600">
               Tanpa perencanaan biaya yang matang, berbagai masalah dapat muncul

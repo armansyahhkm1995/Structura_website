@@ -12,7 +12,8 @@ export default function TestimonialSection() {
         {/* HEADER */}
         <div className="text-left md:text-center max-w-3xl mx-auto mb-16">
           <h1 className="text-3xl md:text-4xl font-semibold mb-4">
-            Apa Kata <span className="text-primary">Klien Kami</span>
+            <strong className="text-black">Apa Kata </strong>
+            <em className="text-primary">Klien Kami</em>
           </h1>
           <p className="text-gray-600">
             Pengalaman nyata dari klien yang telah merencanakan proyeknya dengan

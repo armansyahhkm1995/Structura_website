@@ -7,7 +7,8 @@ export default function WhatYouGet() {
         {/* HEADER */}
         <div className="text-left md:text-center max-w-3xl mx-auto mb-16">
           <h1 className="text-3xl md:text-4xl font-semibold mb-4">
-            Apa yang Anda <span className="text-primary">Dapatkan</span>
+            <strong className="text-black">Apa yang Anda </strong>
+            <em className="text-primary">Dapatkan</em>
           </h1>
           <p className="text-gray-600">
             Output yang jelas dan dapat langsung digunakan untuk membantu Anda

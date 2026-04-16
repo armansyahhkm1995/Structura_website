@@ -8,8 +8,8 @@ export default function ProcessSection() {
         {/* HEADER */}
         <div className="text-left md:text-center mb-20">
           <h1 className="text-3xl md:text-4xl font-semibold mb-4">
-            Proses yang{" "}
-            <span className="text-primary">Sederhana & Terarah</span>
+            <strong className="text-black">Proses yang </strong>
+            <em className="text-primary">Sederhana & Terarah</em>
           </h1>
           <p className="text-gray-600 max-w-3xl mx-auto text-left md:text-center md:-translate-x-2 md:pl-50">
             Kami merancang proses yang jelas dan efisien agar Anda dapat

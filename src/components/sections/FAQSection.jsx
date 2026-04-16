@@ -11,8 +11,8 @@ export default function FAQSection() {
         {/* HEADER */}
         <div className="text-left md:text-center max-w-3xl mx-auto mb-16">
           <h1 className="text-3xl md:text-4xl font-semibold mb-4">
-            Pertanyaan yang Sering{" "}
-            <span className="text-primary">Diajukan</span>
+            <strong className="text-black">Pertanyaan yang Sering </strong>
+            <em className="text-primary">Diajukan</em>
           </h1>
           <p className="text-gray-600">
             Beberapa hal yang mungkin masih Anda pertimbangkan sebelum memulai.
