@@ -49,7 +49,7 @@ function Card({ item }) {
 
       {/* TITLE */}
       <h2 className="text-lg font-semibold mb-2 text-gray-900 transition-colors duration-300 group-hover:!text-blue-600">
-        {item.title}
+        <strong className="text-black">{item.title}</strong>
       </h2>
 
       {/* DESC */}

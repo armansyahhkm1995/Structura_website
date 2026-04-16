@@ -129,7 +129,7 @@ export default function Navbar() {
         }`}
       >
         <div className="space-y-4">
-          <NavLink
+          {/* <NavLink
             to="/calculator"
             onClick={() => setIsOpen(false)}
             className={({ isActive }) =>
@@ -139,7 +139,7 @@ export default function Navbar() {
             }
           >
             Calculator
-          </NavLink>
+          </NavLink> */}
           <NavLink
             to="/services"
             onClick={() => setIsOpen(false)}

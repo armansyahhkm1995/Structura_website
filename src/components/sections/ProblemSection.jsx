@@ -105,7 +105,7 @@ export default function ProblemSection() {
               >
                 {/* TITLE */}
                 <h2 className="text-left font-semibold mb-2 text-gray-900">
-                  {item.title}
+                  <strong className="text-black">{item.title}</strong>
                 </h2>
 
                 {/* DESC */}
