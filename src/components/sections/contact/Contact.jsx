@@ -1,7 +1,6 @@
 import { whatsappLink } from "../../../utils/whatsapp";
 import hero_section_image from "../../../assets/hero_section_image.webp";
 import { useNavigate } from "react-router-dom";
-import { compro } from "../../../utils/ComproStructura";
 
 export default function Hero() {
   const navigate = useNavigate();
@@ -13,17 +12,18 @@ export default function Hero() {
           {/* Header */}
           <h1 className="text-4xl md:text-5xl font-semibold leading-tight mb-6 text-left">
             <strong className="text-black">
-              Setiap Pembangunan yang Baik Selalu Dimulai dari{" "}
-              <em className="text-primary">Perencanaan yang Baik.</em>
+              Bangun Rumah Sesuai Anggaran{" "}
+              <em className="text-primary">
+                Tanpa Mengorbankan Keselamatan, Kualitas dan Kenyamanan
+              </em>
             </strong>
           </h1>
 
           <p className="text-gray-600 mb-8 max-w-lg text-left">
-            Structura hadir untuk membantu owner merencanakan rumah dan bangunan
-            dengan lebih terarah melalui desain, perencanaan anggaran, dokumen
-            teknis, serta pendampingan. Kami percaya bahwa keputusan yang tepat
-            sejak awal akan menghasilkan pembangunan yang lebih efisien, aman,
-            berkualitas, dan sesuai anggaran.
+            Membangun rumah bukan hanya tentang biaya. Tetapi tentang mengambil
+            keputusan yang tepat sejak awal. Structura membantu Anda
+            merencanakan pembangunan agar sesuai anggaran tanpa mengorbankan
+            keselamatan, kualitas, maupun kenyamanan.
           </p>
 
           {/* CTA */}
@@ -39,15 +39,20 @@ export default function Hero() {
             </a>
 
             {/* SECONDARY */}
-
-            <a
-              href={compro}
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              onClick={() => navigate("/Portfolio")}
               className="px-6 py-3 rounded-lg border border-gray-300 text-gray-700 hover:bg-gray-100 transition"
             >
-              Unduh Compro Kami
-            </a>
+              Lihat Portofolio Kami
+            </button>
+          </div>
+
+          {/* Trust indicator */}
+          <div className="mt-10 flex flex-wrap gap-5 text-sm text-gray-600">
+            <span>Rumah Tinggal</span>
+            <span>Renovasi</span>
+            <span>Bangunan Komersial</span>
+            <span>Infrastruktur Sipil</span>
           </div>
         </div>
 

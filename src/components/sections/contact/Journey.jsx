@@ -1,19 +1,22 @@
 import TimelineCard from "../../ui/TimelineCard";
-import { steps } from "../../../data/home/process";
+import { steps } from "../../../data/contact/journey";
 
-export default function Process() {
+export default function Journey() {
   return (
     <section className="py-24 bg-gray-50">
       <div className="max-w-5xl mx-auto px-6">
         {/* HEADER */}
         <div className="text-left md:text-center mb-20">
           <h1 className="text-3xl md:text-4xl font-semibold mb-4">
-            <strong className="text-black">Bagaimana </strong>
-            <em className="text-primary">Structura Bekerja</em>
+            <strong className="text-black">
+              Apa yang Akan Terjadi Setelah Anda{" "}
+            </strong>
+            <em className="text-primary">Menghubungi Kami</em>
           </h1>
           <p className="text-gray-600 max-w-3xl mx-auto text-left md:text-center md:-translate-x-2 md:pl-50">
-            Kami merancang proses yang jelas dan efisien agar Anda dapat
-            memahami setiap langkah tanpa kerumitan.
+            Kami ingin setiap proses berjalan dengan jelas dan transparan.
+            Berikut tahapan yang biasanya Anda lalui sejak konsultasi pertama
+            hingga pekerjaan dimulai.
           </p>
         </div>
 

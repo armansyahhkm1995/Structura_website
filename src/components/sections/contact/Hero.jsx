@@ -13,17 +13,15 @@ export default function Hero() {
           {/* Header */}
           <h1 className="text-4xl md:text-5xl font-semibold leading-tight mb-6 text-left">
             <strong className="text-black">
-              Setiap Pembangunan yang Baik Selalu Dimulai dari{" "}
-              <em className="text-primary">Perencanaan yang Baik.</em>
+              Mari Diskusikan{" "}
+              <em className="text-primary">Rencana Pembangunan Anda</em>
             </strong>
           </h1>
 
           <p className="text-gray-600 mb-8 max-w-lg text-left">
-            Structura hadir untuk membantu owner merencanakan rumah dan bangunan
-            dengan lebih terarah melalui desain, perencanaan anggaran, dokumen
-            teknis, serta pendampingan. Kami percaya bahwa keputusan yang tepat
-            sejak awal akan menghasilkan pembangunan yang lebih efisien, aman,
-            berkualitas, dan sesuai anggaran.
+            Tidak perlu menunggu semua dokumen lengkap. Ceritakan kebutuhan,
+            anggaran, atau ide Anda. Kami akan membantu menentukan langkah
+            terbaik sebelum pembangunan dimulai.
           </p>
 
           {/* CTA */}
@@ -48,6 +46,13 @@ export default function Hero() {
             >
               Unduh Compro Kami
             </a>
+          </div>
+
+          {/* Trust indicator */}
+          <div className="mt-10 flex flex-wrap gap-5 text-sm text-gray-600">
+            <span>Konsultasi Gratis</span>
+            <span>Online Maupun Offline</span>
+            <span>Respon Pada Jam Operasional</span>
           </div>
         </div>
 
