@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import FinalCTASection from "../components/sections/FinalCTASection";
+import FinalCTA from "../components/sections/home/FinalCTA";
 import { data } from "../data/portfolios";
 
 export default function Portfolio() {
@@ -97,7 +97,7 @@ export default function Portfolio() {
         )}
       </AnimatePresence>
 
-      <FinalCTASection />
+      <FinalCTA />
     </div>
   );
 }

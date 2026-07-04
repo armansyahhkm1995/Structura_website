@@ -1,11 +1,11 @@
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 import { Star } from "lucide-react";
-import { testimonials } from "../../data/testimonials";
-import MarqueeRow from "../ui/MarqueeRow";
-import TestimonialCard from "../ui/TestimonialCard";
+import { testimonials } from "../../../data/testimonials";
+import MarqueeRow from "../../ui/MarqueeRow";
+import TestimonialCard from "../../ui/TestimonialCard";
 
-export default function TestimonialSection() {
+export default function Testimonialn() {
   return (
     <section className="py-24 bg-gray-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">

@@ -1,7 +1,7 @@
-import TimelineCard from "../ui/TimelineCard";
-import { steps } from "../../data/process";
+import TimelineCard from "../../ui/TimelineCard";
+import { steps } from "../../../data/home/process";
 
-export default function ProcessSection() {
+export default function Process() {
   return (
     <section className="py-24 bg-gray-50">
       <div className="max-w-5xl mx-auto px-6">

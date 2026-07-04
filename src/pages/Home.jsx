@@ -1,25 +1,23 @@
-import HeroSection from "../components/sections/HeroSection";
-import ProblemSection from "../components/sections/ProblemSection";
-import SolutionSection from "../components/sections/SolutionSection";
-import Deliverables from "../components/sections/DeliverablesSection";
+import Hero from "../components/sections/home/Hero";
+import Problem from "../components/sections/home/Problem";
+import Solution from "../components/sections/home/Solution";
+import Deliverables from "../components/sections/home/Deliverables";
 import ProjectTypesSection from "../components/sections/ProjectTypesSection";
-import ProcessSection from "../components/sections/ProcessSection";
-import TestimonialSection from "../components/sections/TestimonialSection";
-import FinalCTASection from "../components/sections/FinalCTASection";
-import FAQSection from "../components/sections/FAQSection";
+import Process from "../components/sections/home/Process";
+import FinalCTA from "../components/sections/home/FinalCTA";
+import FAQ from "../components/sections/home/FAQ";
 
 export default function Home() {
   return (
     <div>
-      <HeroSection />
-      <ProblemSection />
-      <SolutionSection />
+      <Hero />
+      <Problem />
+      <Solution />
       <Deliverables />
       <ProjectTypesSection />
-      <ProcessSection />
-      <TestimonialSection />
-      <FinalCTASection />
-      <FAQSection />
+      <Process />
+      <FAQ />
+      <FinalCTA />
     </div>
   );
 }

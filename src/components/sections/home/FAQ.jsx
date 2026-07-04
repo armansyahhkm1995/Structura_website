@@ -1,8 +1,8 @@
-import { faqs } from "../../data/faq";
-import FAQItem from "../ui/FAQItem";
-import useFAQ from "../hooks/useFAQ";
+import { faqs } from "../../../data/home/faq";
+import FAQItem from "../../ui/FAQItem";
+import useFAQ from "../../hooks/useFAQ";
 
-export default function FAQSection() {
+export default function FAQ() {
   const { openId, toggleFAQ } = useFAQ();
 
   return (

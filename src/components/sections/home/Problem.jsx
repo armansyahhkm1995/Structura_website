@@ -1,7 +1,8 @@
-import problem_section_image from "../../assets/problem_section_image.webp";
-import { problems } from "../../data/problems";
+import problem_section_image from "../../../assets/problem_section_image.webp";
+import { problems } from "../../../data/home/problems";
+import { consequences } from "../../../data/home/consequences";
 
-export default function ProblemSection() {
+export default function Problem() {
   return (
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
@@ -15,10 +16,10 @@ export default function ProblemSection() {
           </h1>
 
           <p className="text-gray-600 text-left md:text-center">
-            Banyak proyek terlihat baik-baik saja di awal, namun mulai
-            bermasalah ketika pembangunan berjalan. Biaya yang awalnya cukup,
-            mulai membengkak. Keputusan tanpa dasar mulai berdampak. Akhirnya
-            proyek menjadi lebih mahal dari seharusnya.
+            Banyak owner menghadapi berbagai keputusan penting sebelum
+            pembangunan dimulai. Tanpa perencanaan yang tepat,
+            keputusan-keputusan tersebut dapat memicu pembengkakan biaya,
+            penurunan kualitas, hingga hasil akhir yang tidak sesuai harapan.
           </p>
         </div>
 
@@ -65,40 +66,7 @@ export default function ProblemSection() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              {
-                title: "Pembengkakan Biaya",
-                desc: "Anggaran awal tidak lagi relevan dan terus bertambah tanpa kepastian total biaya akhir.",
-              },
-              {
-                title: "Proyek Tertunda",
-                desc: "Pekerjaan melambat atau berhenti karena keterbatasan dana atau keputusan yang belum matang.",
-              },
-              {
-                title: "Keputusan Reaktif",
-                desc: "Perubahan dilakukan secara mendadak tanpa analisis biaya yang jelas.",
-              },
-              {
-                title: "Penurunan Kualitas",
-                desc: "Spesifikasi dan material dikompromikan untuk menyesuaikan anggaran.",
-              },
-              {
-                title: "Kontrol Lemah",
-                desc: "Sulit memvalidasi biaya dan pekerjaan tanpa acuan yang jelas.",
-              },
-              {
-                title: "Tracking Tidak Jelas",
-                desc: "Pengeluaran sulit dipantau karena tidak ada breakdown biaya yang terstruktur.",
-              },
-              {
-                title: "Potensi Konflik",
-                desc: "Perbedaan persepsi biaya dan pekerjaan memicu konflik dengan kontraktor.",
-              },
-              {
-                title: "Tekanan Finansial",
-                desc: "Cashflow terganggu karena kebutuhan dana muncul di luar rencana awal.",
-              },
-            ].map((item, i) => (
+            {consequences.map((item, i) => (
               <div
                 key={i}
                 className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md transition"

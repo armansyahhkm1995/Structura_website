@@ -1,4 +1,4 @@
-import { whatsappLink } from "../../utils/whatsapp";
+import { whatsappLink } from "../../../utils/whatsapp";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
@@ -14,7 +14,8 @@ export default function FinalCTA() {
           transition={{ duration: 0.6 }}
           className="text-3xl md:text-4xl font-semibold mb-6 !text-white"
         >
-          Rencanakan Proyek Anda dengan Lebih Terarah—Sebelum Terlambat
+          Mari Wujudkan Pembangunan yang Sesuai Anggaran, Tanpa Mengorbankan
+          Kualitas
         </motion.h1>
 
         {/* SUBTEXT */}
@@ -24,8 +25,9 @@ export default function FinalCTA() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="text-white/80 mb-10 max-w-2xl mx-auto md:pl-50 pb-6"
         >
-          Dapatkan gambaran biaya yang jelas, hindari pembengkakan anggaran, dan
-          ambil keputusan proyek dengan lebih percaya diri sejak awal.
+          Kami siap membantu Anda merencanakan pembangunan dengan lebih percaya
+          diri melalui desain yang matang, anggaran yang realistis, dan
+          pendampingan yang transparan sejak awal hingga proyek berjalan.
         </motion.p>
 
         {/* CTA */}
@@ -42,7 +44,7 @@ export default function FinalCTA() {
             rel="noopener noreferrer"
             className="bg-white text-primary font-medium px-8 py-4 rounded-xl shadow-lg hover:shadow-xl hover:scale-[1.02] transition text-center"
           >
-            Konsultasikan Proyek Anda Sekarang
+            Mulai Konsultasi Gratis
           </a>
 
           {/* SECONDARY */}
@@ -53,6 +55,12 @@ export default function FinalCTA() {
             Lihat Portfolio kami
           </button>
         </motion.div>
+        {/* Trust indicator */}
+        <div className="mt-10 mb-10 text-center md:pl-25 mx-auto flex gap-5 text-sm text-white/80">
+          <span>Konsultasi awal tanpa biaya</span>
+          <span>Tanpa kewajiban menggunakan layanan</span>
+          <span>Diskusi langsung melalui WhatsApp</span>
+        </div>
       </div>
     </section>
   );

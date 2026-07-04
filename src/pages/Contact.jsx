@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { MapPin, FileText, Layers, DollarSign } from "lucide-react";
-import FinalCTASection from "../components/sections/FinalCTASection";
+import FinalCTA from "../components/sections/home/FinalCTA";
 
 export default function Contact() {
   return (
@@ -163,7 +163,7 @@ export default function Contact() {
       </section>
 
       {/* ================= FINAL CTA ================= */}
-      <FinalCTASection />
+      <FinalCTA />
     </div>
   );
 }

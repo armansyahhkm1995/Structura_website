@@ -1,5 +1,5 @@
-import { whatsappLink } from "../../utils/whatsapp";
-import hero_section_image from "../../assets/hero_section_image.webp";
+import { whatsappLink } from "../../../utils/whatsapp";
+import hero_section_image from "../../../assets/hero_section_image.webp";
 import { useNavigate } from "react-router-dom";
 
 export default function Hero() {
@@ -9,18 +9,20 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
         {/* LEFT CONTENT */}
         <div>
+          {/* Header */}
           <h1 className="text-4xl md:text-5xl font-semibold leading-tight mb-6 text-left">
             <strong className="text-black">
-              Kendalikan Biaya Proyek Anda{" "}
-              <em className="text-primary">Sejak awal</em>, Bukan Saat Sudah
-              Terlambat
+              Setiap Pembangunan yang Baik Selalu Dimulai dari{" "}
+              <em className="text-primary">Perencanaan yang Baik.</em>
             </strong>
           </h1>
 
           <p className="text-gray-600 mb-8 max-w-lg text-left">
-            Kami membantu Anda memahami estimasi biaya, menghindari pembengkakan
-            anggaran, dan mengambil keputusan proyek dengan lebih percaya diri
-            sebelum pembangunan dimulai.
+            Structura hadir untuk membantu owner merencanakan rumah dan bangunan
+            dengan lebih terarah melalui desain, perencanaan anggaran, dokumen
+            teknis, serta pendampingan. Kami percaya bahwa keputusan yang tepat
+            sejak awal akan menghasilkan pembangunan yang lebih efisien, aman,
+            berkualitas, dan sesuai anggaran.
           </p>
 
           {/* CTA */}
@@ -32,16 +34,16 @@ export default function Hero() {
               rel="noopener noreferrer"
               className="btn-primary"
             >
-              Konsultasikan Proyek Anda Sekarang
+              Mulai Konsultasi Gratis
             </a>
 
             {/* SECONDARY */}
-            {/* <button
-              onClick={() => navigate("/calculator")}
+            <button
+              onClick={() => navigate("/Portfolio")}
               className="px-6 py-3 rounded-lg border border-gray-300 text-gray-700 hover:bg-gray-100 transition"
             >
-              Hitung Estimasi Biaya Awal
-            </button> */}
+              Lihat Portofolio Kami
+            </button>
           </div>
         </div>
 
