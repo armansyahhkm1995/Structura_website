@@ -1,6 +1,7 @@
 import { whatsappLink } from "../../../utils/whatsapp";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
+import { compro } from "../../../utils/ComproStructura";
 
 export default function FinalCTA() {
   const navigate = useNavigate();
@@ -48,12 +49,14 @@ export default function FinalCTA() {
           </a>
 
           {/* SECONDARY */}
-          <button
-            onClick={() => navigate("/portfolio")}
-            className="border border-white/40 px-8 py-4 rounded-xl text-white hover:bg-white/10 transition text-center"
+          <a
+            href={compro}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 rounded-lg border border-gray-300 text-white hover:bg-gray-100 transition text-center"
           >
-            Lihat Portfolio kami
-          </button>
+            Unduh Compro Kami
+          </a>
         </motion.div>
         {/* Trust indicator */}
         <div className="mt-10 mb-10 text-center md:pl-25 mx-auto flex gap-5 text-sm text-white/80">

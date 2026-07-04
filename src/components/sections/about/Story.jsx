@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import story_image from "../../../assets/infra/drainase.webp";
+import story_image from "../../../assets/portfolio/awang_sabrang_tenggarong/awang_sabrang_1.webp";
 import { highlights } from "../../../data/about/highlights";
 
 export default function Story() {
