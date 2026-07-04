@@ -1,35 +1,81 @@
-const whatsappMessage = `Halo Structura,
+const whatsappMessage = `Halo Structura 👋
 
-Saya ingin konsultasi terkait rencana proyek saya. Berikut informasi awal proyek saya:
+Saya ingin berkonsultasi mengenai rencana pembangunan saya.
 
-1. Jenis proyek:
-(Rumah tinggal / Ruko / Café / dll)
+Berikut gambaran awal proyek saya:
 
-2. Lokasi proyek:
-(Kota / area)
+━━━━━━━━━━━━━━━━━━━━━━
 
-3. Luas bangunan:
-(± berapa m²)
+🏠 1. Jenis proyek
+(Rumah tinggal / Renovasi / Ruko / Café / Gudang / Kantor / Bangunan lainnya)
 
-4. Status proyek saat ini:
-(Belum ada desain / sudah ada denah / sudah ada gambar lengkap)
+✍️ Jawaban:
 
-5. Rencana jumlah lantai:
-(1 lantai / 2 lantai / dll)
 
-6. Target kualitas bangunan:
-(Basic / Standard / Premium)
+📍 2. Lokasi proyek
+(Kota / Kecamatan)
 
-7. Estimasi waktu pembangunan:
-(Jika ada)
+✍️ Jawaban:
 
-8. Apakah sudah memiliki kontraktor?
-(Belum / sudah)
 
-9. Tujuan utama konsultasi:
-(Mengetahui estimasi biaya / kontrol biaya / evaluasi)
+📐 3. Perkiraan luas bangunan
+(Jika belum pasti boleh dikira-kira)
 
-Saya juga siap menyediakan data tambahan jika diperlukan.
+✍️ Jawaban:
+
+
+🏗️ 4. Tahap proyek saat ini
+☐ Masih mencari informasi
+☐ Sudah memiliki lahan
+☐ Sudah memiliki denah
+☐ Sudah memiliki gambar desain
+☐ Sedang proses pembangunan
+☐ Lainnya: ...
+
+✍️ Jawaban:
+
+
+💰 5. Kisaran anggaran (Opsional)
+(Boleh dikosongkan jika belum memiliki gambaran)
+
+✍️ Jawaban:
+
+
+🎯 6. Apa yang ingin Anda capai?
+(Contoh: rumah nyaman untuk keluarga, biaya tetap terkontrol, desain modern, rumah hemat energi, dll.)
+
+✍️ Jawaban:
+
+
+❓ 7. Apa yang ingin Anda konsultasikan?
+☐ Desain Arsitektur
+☐ Desain Interior
+☐ Perencanaan Struktur
+☐ RAB (Rencana Anggaran Biaya)
+☐ Dokumen Perizinan
+☐ Pendampingan Pembangunan
+☐ Renovasi
+☐ Lainnya: ...
+
+✍️ Jawaban:
+
+
+📎 8. Apakah sudah memiliki data pendukung?
+(Boleh pilih lebih dari satu)
+
+☐ Foto lokasi
+☐ Denah
+☐ Gambar desain
+☐ SHM / Sertifikat
+☐ PBG / IMB
+☐ Hasil survei tanah
+☐ Belum ada
+
+✍️ Jawaban:
+
+━━━━━━━━━━━━━━━━━━━━━━
+
+Jika diperlukan, saya siap mengirimkan foto lokasi, gambar desain, maupun dokumen pendukung agar diskusi menjadi lebih mudah.
 
 Terima kasih.`;
 
