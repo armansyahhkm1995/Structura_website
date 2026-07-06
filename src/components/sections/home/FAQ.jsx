@@ -11,12 +11,17 @@ export default function FAQ() {
         {/* HEADER */}
         <div className="text-left md:text-center max-w-3xl mx-auto mb-16">
           <h1 className="text-3xl md:text-4xl font-semibold mb-4">
-            <strong className="text-black">Pertanyaan yang Sering </strong>
-            <em className="text-primary">Diajukan</em>
+            <strong className="text-black">
+              Temukan jawaban mengenai layanan{" "}
+            </strong>
+            <em className="text-primary">
+              Arsitek Bandung, desain rumah, RAB, perhitungan struktur,
+              pengurusan PBG,{" "}
+            </em>
+            <strong className="text-black">
+              hingga proses pendampingan pembangunan bersama Structura.{" "}
+            </strong>
           </h1>
-          <p className="text-gray-600">
-            Beberapa hal yang mungkin masih Anda pertimbangkan sebelum memulai.
-          </p>
         </div>
 
         {/* GRID FIXED (NO SHIFT BUG) */}

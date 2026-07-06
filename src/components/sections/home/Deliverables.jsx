@@ -11,15 +11,16 @@ export default function Deliverables() {
           <div className="text-left md:text-center max-w-4xl mx-auto mb-16">
             <h1 className="text-3xl md:text-4xl font-semibold mb-4">
               <strong className="text-black">
-                Kami Mendampingi Setiap Tahap{" "}
+                Layanan Arsitek Bandung untuk{" "}
               </strong>
-              <em className="text-primary">Pembangunan Anda.</em>
+              <em className="text-primary">Setiap Tahap Pembangunan Anda</em>
             </h1>
 
             <p className="text-gray-600">
-              Mulai dari perencanaan pembangunan, penyusunan anggaran, hingga
-              pendampingan selama proyek berjalan agar setiap keputusan lebih
-              terarah dan sesuai anggaran.
+              Structura menyediakan layanan mulai dari desain rumah, perhitungan
+              struktur, penyusunan RAB, pengurusan PBG, hingga pendampingan
+              konstruksi untuk rumah tinggal, bangunan komersial, maupun proyek
+              konstruksi lainnya.
             </p>
           </div>
         </div>

@@ -20,10 +20,13 @@ export default function Hero() {
           </h1>
 
           <p className="text-gray-600 mb-8 max-w-lg text-left">
-            Membangun rumah bukan hanya tentang biaya. Tetapi tentang mengambil
-            keputusan yang tepat sejak awal. Structura membantu Anda
-            merencanakan pembangunan agar sesuai anggaran tanpa mengorbankan
-            keselamatan, kualitas, maupun kenyamanan.
+            Structura adalah <strong>jasa arsitek Bandung</strong> yang membantu
+            Anda merencanakan pembangunan rumah, bangunan komersial, hingga
+            berbagai proyek konstruksi sipil melalui desain arsitektur,
+            perhitungan struktur, penyusunan RAB, pengurusan PBG, dan
+            pendampingan pembangunan. Kami membantu Anda mengambil keputusan
+            yang tepat agar proyek lebih aman, efisien, dan sesuai anggaran
+            tanpa mengorbankan kualitas maupun kenyamanan.
           </p>
 
           {/* CTA */}
@@ -50,9 +53,9 @@ export default function Hero() {
           {/* Trust indicator */}
           <div className="mt-10 flex flex-wrap gap-5 text-sm text-gray-600">
             <span>Rumah Tinggal</span>
-            <span>Renovasi</span>
-            <span>Bangunan Komersial</span>
-            <span>Infrastruktur Sipil</span>
+            <span>Ruko & Komersial</span>
+            <span>Gedung</span>
+            <span>Jalan & Jembatan</span>
           </div>
         </div>
 
@@ -60,7 +63,7 @@ export default function Hero() {
         <div className="relative hidden md:flex items-stretch h-full">
           <img
             src={hero_section_image}
-            alt="Cost Planning"
+            alt="Tim Structura Arsitek Bandung merencanakan pembangunan rumah"
             className="w-full h-full object-cover rounded-xl shadow-sm"
           />
 

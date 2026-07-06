@@ -1,26 +1,26 @@
 export const consequences = [
   {
     title: "Pembengkakan Biaya",
-    desc: "Anggaran terus bertambah karena banyak keputusan penting baru diambil ketika pembangunan sudah berjalan.",
+    desc: "Tanpa perencanaan biaya dan RAB yang tepat sejak awal, pembangunan rumah maupun bangunan komersial berisiko mengalami pembengkakan anggaran.",
   },
   {
     title: "Proyek Tertunda",
-    desc: "Pekerjaan melambat atau berhenti karena keputusan awal belum matang atau anggaran tidak lagi mencukupi.",
+    desc: "Kurangnya koordinasi antara desain arsitektur, perhitungan struktur, dan pelaksanaan konstruksi sering menyebabkan keterlambatan proyek.",
   },
   {
     title: "Penurunan Kualitas",
-    desc: "Material atau mutu pekerjaan akhirnya dikurangi agar tetap sesuai anggaran yang sudah terlanjur berubah.",
+    desc: "Ketika biaya melebihi rencana, pemilik proyek sering terpaksa menurunkan kualitas material atau spesifikasi bangunan.",
   },
   {
     title: "Konflik Selama Proyek",
-    desc: "Perbedaan persepsi mengenai biaya, material, maupun ruang lingkup pekerjaan dapat memicu konflik antar pihak.",
+    desc: "Dokumen gambar kerja, RAB, dan ruang lingkup pekerjaan yang tidak jelas dapat memicu konflik antara owner, arsitek, konsultan, dan kontraktor.",
   },
   {
     title: "Keputusan Reaktif",
-    desc: "Perubahan dilakukan secara mendadak tanpa dasar perencanaan yang jelas sehingga berdampak pada keseluruhan proyek.",
+    desc: "Perubahan desain atau struktur tanpa analisis yang matang dapat meningkatkan biaya dan memengaruhi keseluruhan pembangunan.",
   },
   {
     title: "Tekanan Finansial",
-    desc: "Cashflow menjadi tidak terkontrol karena kebutuhan dana muncul di luar rencana awal.",
+    desc: "Tanpa estimasi biaya yang realistis, kebutuhan dana proyek akan sulit diprediksi sehingga cashflow menjadi tidak terkendali.",
   },
 ];

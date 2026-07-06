@@ -10,16 +10,22 @@ export default function Problem() {
         <div className="text-left md:text-center max-w-3xl mx-auto mb-16">
           <h1 className=" text-3xl md:text-4xl font-semibold mb-4">
             <strong className="text-black">
-              Sebagian Besar Masalah Konstruksi Tidak Terjadi di Lapangan—
+              Sebagian Besar Masalah Pembangunan Rumah Tidak Terjadi di
+              Lapangan—
             </strong>
             <em className="text-primary"> Tapi di Perencanaan Awal</em>
           </h1>
 
           <p className="text-gray-600 text-left md:text-center">
-            Banyak owner menghadapi berbagai keputusan penting sebelum
-            pembangunan dimulai. Tanpa perencanaan yang tepat,
-            keputusan-keputusan tersebut dapat memicu pembengkakan biaya,
-            penurunan kualitas, hingga hasil akhir yang tidak sesuai harapan.
+            Sebelum pembangunan dimulai, setiap keputusan mulai dari
+            <strong> desain rumah</strong>,
+            <strong> perhitungan struktur</strong>,
+            <strong> penyusunan RAB</strong>, hingga
+            <strong> pengurusan PBG</strong>
+            akan memengaruhi biaya, kualitas, dan kelancaran proyek. Tanpa
+            perencanaan yang tepat, keputusan-keputusan tersebut dapat
+            menyebabkan pembengkakan biaya, penurunan kualitas, hingga hasil
+            akhir yang tidak sesuai harapan.
           </p>
         </div>
 
@@ -29,7 +35,7 @@ export default function Problem() {
           <div className="hidden md:block h-full">
             <img
               src={problem_section_image}
-              alt="Problem Construction"
+              alt="Perencanaan pembangunan rumah dan konstruksi sebelum proyek dimulai"
               className="w-full h-full object-cover rounded-2xl"
             />
           </div>
@@ -60,8 +66,9 @@ export default function Problem() {
               <em className="text-primary">Anda</em>
             </h1>
             <p className="text-gray-600">
-              Tanpa perencanaan biaya yang matang, berbagai masalah dapat muncul
-              secara bersamaan dan saling berdampak pada keseluruhan proyek.
+              Kesalahan pada tahap perencanaan, mulai dari desain, struktur,
+              anggaran, hingga perizinan, dapat menimbulkan berbagai risiko yang
+              saling memengaruhi selama proses pembangunan.
             </p>
           </div>
 
@@ -88,8 +95,9 @@ export default function Problem() {
         {/* BRIDGE */}
         <div className="text-left md:text-center max-w-3xl mx-auto mt-10">
           <p className="text-gray-500">
-            Masalah ini bukan karena proyek terlalu kompleks—tetapi karena
-            perencanaan biaya tidak disusun dengan tepat sejak awal.
+            Sebagian besar risiko pembangunan sebenarnya dapat diantisipasi
+            melalui perencanaan yang matang sejak awal, sebelum pekerjaan
+            konstruksi dimulai.
           </p>
         </div>
       </div>

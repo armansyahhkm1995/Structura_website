@@ -17,9 +17,10 @@ export default function Solution() {
           </h1>
 
           <p className="text-gray-600">
-            Structura membantu owner memahami kebutuhan, menyesuaikan anggaran,
-            serta merencanakan pembangunan agar setiap keputusan lebih terarah
-            sebelum pekerjaan dimulai.
+            Structura membantu owner merencanakan pembangunan melalui layanan
+            desain arsitektur, perencanaan struktur, penyusunan RAB, pengurusan
+            PBG, hingga pendampingan konstruksi agar setiap keputusan lebih
+            terarah sebelum pekerjaan dimulai.
           </p>
         </div>
 
@@ -35,7 +36,7 @@ export default function Solution() {
               <div className="overflow-hidden">
                 <img
                   src={item.img}
-                  alt={item.title}
+                  alt={item.alt}
                   className="w-full h-48 object-cover group-hover:scale-105 transition duration-300"
                 />
               </div>

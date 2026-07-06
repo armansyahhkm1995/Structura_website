@@ -12,8 +12,10 @@ export default function Process() {
             <em className="text-primary">Structura Bekerja</em>
           </h1>
           <p className="text-gray-600 max-w-3xl mx-auto text-left md:text-center md:-translate-x-2 md:pl-50">
-            Kami merancang proses yang jelas dan efisien agar Anda dapat
-            memahami setiap langkah tanpa kerumitan.
+            Kami mendampingi proses pembangunan mulai dari konsultasi awal,
+            desain arsitektur, perhitungan struktur, penyusunan RAB, hingga
+            proyek siap dibangun agar setiap keputusan lebih terarah dan sesuai
+            anggaran.
           </p>
         </div>
 

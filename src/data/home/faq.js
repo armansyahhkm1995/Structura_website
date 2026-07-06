@@ -1,41 +1,40 @@
 export const faqs = [
   {
     id: "faq-1",
-    question: "Apakah Structura cocok untuk proyek saya?",
+    question: "Apakah Structura hanya melayani desain rumah di Bandung?",
     answer:
-      "Ya. Structura melayani berbagai jenis proyek, mulai dari rumah tinggal, renovasi, ruko, bangunan komersial, hingga bangunan sipil. Kami membantu owner merencanakan pembangunan agar keputusan yang diambil lebih terarah dan sesuai dengan anggaran yang dimiliki.",
+      "Tidak. Meskipun banyak klien menggunakan layanan kami sebagai arsitek rumah Bandung, Structura juga menangani bangunan komersial, renovasi, kantor, gudang, fasilitas publik, hingga berbagai proyek konstruksi dan infrastruktur. Layanan kami dapat disesuaikan di setiap lokasi dengan kebutuhan setiap proyek.",
   },
   {
     id: "faq-2",
     question:
       "Saya belum memiliki gambar desain. Apakah tetap bisa berkonsultasi?",
     answer:
-      "Tentu. Justru banyak owner datang kepada kami sebelum memiliki gambar. Kami akan memahami kebutuhan, tujuan pembangunan, kondisi lahan, serta kisaran anggaran Anda terlebih dahulu, kemudian merekomendasikan langkah yang paling sesuai untuk memulai proyek.",
+      "Tentu. Banyak klien datang kepada kami sebelum memiliki gambar. Sebagai jasa arsitek Bandung, kami akan membantu memahami kebutuhan ruang, kondisi lahan, target anggaran, hingga konsep desain yang paling sesuai sebelum proses perencanaan dimulai.",
   },
   {
     id: "faq-3",
     question: "Apakah saya harus menggunakan kontraktor tertentu?",
     answer:
-      "Tidak. Anda bebas memilih kontraktor mana pun. Structura bersifat independen sehingga seluruh rekomendasi diberikan berdasarkan kebutuhan proyek Anda. Dokumen yang kami susun juga dapat digunakan sebagai acuan untuk membandingkan penawaran dari beberapa kontraktor secara lebih objektif.",
+      "Tidak. Anda bebas memilih kontraktor mana pun. Structura bersifat independen sehingga seluruh rekomendasi diberikan berdasarkan kebutuhan proyek Anda. Dokumen seperti gambar kerja, RAB, dan BOQ dapat digunakan sebagai acuan untuk membandingkan penawaran dari beberapa kontraktor secara lebih objektif.",
   },
   {
     id: "faq-4",
-    question:
-      "Apakah Structura juga dapat membantu mengurus dokumen perizinan pembangunan?",
+    question: "Apakah Structura juga membantu pengurusan PBG?",
     answer:
-      "Ya. Selain membantu perencanaan dan penyusunan dokumen teknis, kami juga dapat mendampingi proses pengurusan dokumen perizinan pembangunan sesuai kebutuhan proyek dan ketentuan yang berlaku di wilayah setempat. Ruang lingkup layanan akan disesuaikan dengan jenis proyek dan regulasi yang berlaku.",
+      "Ya. Selain desain dan perencanaan, kami juga membantu pengurusan Persetujuan Bangunan Gedung (PBG) beserta dokumen teknis yang diperlukan sesuai ketentuan yang berlaku di wilayah proyek.",
   },
   {
     id: "faq-5",
     question: "Bagaimana proses kerja Structura?",
     answer:
-      "Proses dimulai dari konsultasi awal untuk memahami kebutuhan proyek Anda. Setelah itu kami menyusun perencanaan pembangunan, estimasi anggaran, serta dokumen pendukung lainnya. Seluruh hasil akan didiskusikan bersama sebelum difinalisasi sehingga Anda memahami setiap keputusan yang diambil.",
+      "Proses dimulai dari konsultasi awal, kemudian dilanjutkan dengan perencanaan desain, gambar kerja, perhitungan struktur, penyusunan RAB, hingga pendampingan pembangunan apabila diperlukan.",
   },
   {
     id: "faq-6",
     question: "Apa saja yang akan saya terima?",
     answer:
-      "Dokumen yang Anda terima akan disesuaikan dengan layanan yang dipilih. Dokumen tersebut dapat berupa gambar kerja, spesifikasi teknis, RAB, BOQ, rekomendasi material, dokumen pendukung perizinan, maupun hasil konsultasi teknis lainnya.",
+      "Dokumen yang diterima bergantung pada layanan yang dipilih. Dokumen dapat berupa gambar kerja arsitektur, gambar struktur, spesifikasi teknis, RAB, BOQ, dokumen PBG, hingga rekomendasi teknis selama pembangunan.",
   },
   {
     id: "faq-7",
@@ -57,27 +56,26 @@ export const faqs = [
   },
   {
     id: "faq-10",
-    question: "Berapa biaya layanan Structura?",
+    question: "Berapa biaya jasa arsitek Bandung di Structura?",
     answer:
-      "Biaya layanan disesuaikan dengan jenis proyek, luas bangunan, tingkat kompleksitas, serta ruang lingkup pekerjaan yang dibutuhkan. Setelah konsultasi awal, kami akan menyusun penawaran yang transparan sehingga Anda mengetahui seluruh biaya sebelum pekerjaan dimulai.",
+      "Biaya jasa arsitek dan konsultan konstruksi bergantung pada jenis proyek, luas bangunan, tingkat kompleksitas, serta ruang lingkup pekerjaan seperti desain, perhitungan struktur, RAB, maupun pendampingan pembangunan. Setelah konsultasi awal kami akan memberikan penawaran yang transparan.",
   },
   {
     id: "faq-11",
-    question:
-      "Mengapa saya perlu menggunakan jasa konsultan sebelum membangun?",
+    question: "Mengapa perlu menggunakan jasa arsitek sebelum membangun rumah?",
     answer:
-      "Sebagian besar masalah pembangunan sebenarnya muncul sebelum pekerjaan dimulai, seperti keputusan desain, anggaran, spesifikasi material, hingga perizinan. Dengan perencanaan yang matang, Anda dapat meminimalkan risiko pembengkakan biaya, mengurangi perubahan di tengah proyek, serta menjaga kualitas, keselamatan, dan kenyamanan bangunan.",
+      "Sebagian besar masalah pembangunan muncul sebelum pekerjaan dimulai, seperti keputusan desain, struktur, anggaran, spesifikasi material, hingga perizinan. Dengan menggunakan jasa arsitek dan konsultan konstruksi sejak awal, Anda dapat meminimalkan risiko pembengkakan biaya serta menjaga kualitas bangunan.",
   },
   {
     id: "faq-12",
     question: "Bagaimana cara memulai kerja sama dengan Structura?",
     answer:
-      "Anda cukup menghubungi kami melalui WhatsApp atau formulir kontak di website. Kami akan menjadwalkan konsultasi awal untuk memahami kebutuhan proyek Anda, kemudian memberikan rekomendasi layanan yang paling sesuai beserta penawaran secara transparan tanpa kewajiban untuk langsung menggunakan layanan kami.",
+      "Anda dapat menghubungi kami melalui WhatsApp atau formulir kontak di website. Setelah itu kami akan menjadwalkan konsultasi untuk memahami kebutuhan proyek dan merekomendasikan layanan seperti desain rumah, perhitungan struktur, penyusunan RAB, maupun pendampingan pembangunan.",
   },
   {
     id: "faq-13",
     question: "Apakah Structura juga dapat membangun proyek saya?",
     answer:
-      "Ya. Selain menyediakan layanan perencanaan, Structura juga dapat mendampingi pelaksanaan pembangunan melalui tim pelaksana yang bekerja sama dengan kami. Dengan demikian, owner dapat memilih hanya menggunakan layanan perencanaan, hanya pelaksanaan, maupun keduanya sebagai satu kesatuan yang terintegrasi.",
+      "Ya. Selain layanan desain dan konsultasi, Structura juga dapat mendampingi pelaksanaan pembangunan melalui tim pelaksana yang bekerja sama dengan kami. Dengan demikian Anda dapat menggunakan layanan secara terpisah maupun terintegrasi mulai dari desain, struktur, RAB, hingga pelaksanaan konstruksi.",
   },
 ];
