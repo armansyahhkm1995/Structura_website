@@ -5,10 +5,13 @@ import Deliverables from "../components/sections/home/Deliverables";
 import Process from "../components/sections/home/Process";
 import FinalCTA from "../components/sections/home/FinalCTA";
 import FAQ from "../components/sections/home/FAQ";
+import SEO from "../components/ui/SEO";
+import { homeSEO } from "../data/seo/homeSEO";
 
 export default function Home() {
   return (
     <div>
+      <SEO {...homeSEO} />
       <Hero />
       <Problem />
       <Solution />
