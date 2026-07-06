@@ -14,9 +14,10 @@ export default function Journey() {
             <em className="text-primary">Menghubungi Kami</em>
           </h1>
           <p className="text-gray-600 max-w-3xl mx-auto text-left md:text-center md:-translate-x-2 md:pl-50">
-            Kami ingin setiap proses berjalan dengan jelas dan transparan.
-            Berikut tahapan yang biasanya Anda lalui sejak konsultasi pertama
-            hingga pekerjaan dimulai.
+            Sebagai <strong>jasa arsitek Bandung</strong>, kami ingin setiap
+            proses konsultasi berjalan dengan jelas dan transparan. Berikut
+            tahapan yang biasanya Anda lalui mulai dari konsultasi awal hingga
+            proses perencanaan pembangunan dimulai.
           </p>
         </div>
 

@@ -17,7 +17,7 @@ export default function Story() {
           >
             <img
               src={story_image}
-              alt="Story Structura"
+              alt="Perjalanan Structura sebagai jasa arsitek Bandung dan konsultan konstruksi"
               className="w-full h-full object-cover rounded-xl shadow-sm relative hidden md:flex items-stretch"
             />
           </motion.div>
@@ -43,17 +43,21 @@ export default function Story() {
             <div className="space-y-6 text-gray-600 leading-8">
               <p className="text-gray-600 text-left">
                 Selama lebih dari tiga dekade terlibat dalam berbagai proyek
-                konstruksi, kami melihat pola yang sama terus berulang.
-                Pembengkakan biaya, perubahan pekerjaan, keterlambatan proyek,
-                hingga konflik di lapangan sering kali dianggap sebagai masalah
-                pelaksanaan.
+                rumah tinggal, bangunan komersial, hingga infrastruktur sipil,
+                kami melihat pola yang sama terus berulang. Pembengkakan biaya,
+                perubahan pekerjaan, keterlambatan proyek, hingga konflik di
+                lapangan sering kali dianggap sebagai masalah pelaksanaan.
               </p>
 
               <p className="text-gray-600 text-left">
-                Namun dari pengalaman tersebut kami menyadari bahwa akar
-                permasalahannya justru muncul jauh sebelum pembangunan dimulai,
-                yaitu ketika keputusan penting dibuat tanpa perencanaan yang
-                matang, informasi yang jelas, dan dokumen yang memadai.
+                Dari pengalaman tersebut kami menyadari bahwa akar permasalahan
+                justru muncul jauh sebelum pembangunan dimulai, yaitu ketika
+                keputusan penting dibuat tanpa perencanaan yang matang,
+                informasi yang jelas, dan dokumen yang memadai. Melalui
+                Structura, kami membantu owner mengambil keputusan sejak tahap
+                desain, perencanaan struktur, penyusunan RAB, hingga
+                pendampingan pembangunan agar proyek berjalan lebih aman,
+                efisien, dan sesuai anggaran.
               </p>
             </div>
           </motion.div>
@@ -66,16 +70,18 @@ export default function Story() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
-          className="grid md:grid-cols-3 gap-8 mt-8"
+          className="grid md:grid-cols-3 gap-6 mt-8"
         >
           {highlights.map((item, index) => (
             <div
               key={index}
               className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md transition"
             >
-              <h3 className="text-4xl font-bold text-primary">{item.number}</h3>
+              <h3 className="text-4xl font-bold text-primary text-left mb-4">
+                {item.number}
+              </h3>
 
-              <p className="text-sm text-gray-600 leading-relaxed">
+              <p className="text-sm text-gray-600 leading-relaxed text-left">
                 {item.title}
               </p>
             </div>

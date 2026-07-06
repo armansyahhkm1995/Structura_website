@@ -1,28 +1,5 @@
 import { motion } from "framer-motion";
-import { Wallet, ShieldCheck, Hammer, House } from "lucide-react";
-
-const philosophies = [
-  {
-    icon: Wallet,
-    title: "Sesuai Anggaran",
-    desc: "Kami percaya setiap pembangunan harus direncanakan sesuai kemampuan finansial owner. Tujuan kami bukan membuat bangunan semurah mungkin, tetapi membantu Anda mendapatkan hasil terbaik dalam anggaran yang tersedia.",
-  },
-  {
-    icon: ShieldCheck,
-    title: "Keselamatan Tidak Bisa Dikompromikan",
-    desc: "Efisiensi biaya tidak boleh mengurangi keamanan struktur. Keselamatan penghuni selalu menjadi prioritas dalam setiap keputusan yang kami rekomendasikan.",
-  },
-  {
-    icon: Hammer,
-    title: "Kualitas yang Bertahan Lama",
-    desc: "Kami lebih memilih solusi yang memberikan nilai jangka panjang dibanding penghematan sesaat yang justru menimbulkan biaya lebih besar di masa depan.",
-  },
-  {
-    icon: House,
-    title: "Nyaman untuk Dihuni",
-    desc: "Bangunan bukan hanya harus kuat, tetapi juga nyaman digunakan. Kami mempertimbangkan fungsi ruang, sirkulasi udara, pencahayaan alami, hingga kemudahan perawatan.",
-  },
-];
+import { philosophies } from "../../../data/about/philosophies";
 
 export default function Philosophy() {
   return (
@@ -50,9 +27,11 @@ export default function Philosophy() {
           </h1>
 
           <p className="text-gray-600 leading-relaxed text-left md:text-center">
-            Setiap rekomendasi yang kami berikan selalu didasarkan pada prinsip
-            yang sama: membantu owner membangun sesuai anggaran tanpa
-            mengorbankan kualitas, keselamatan, dan kenyamanan.
+            Sebagai <strong>jasa arsitek Bandung</strong> dan konsultan
+            konstruksi, kami percaya bahwa setiap keputusan dalam proses desain,
+            perencanaan, maupun pembangunan harus membantu owner membangun
+            sesuai anggaran tanpa mengorbankan kualitas, keselamatan, dan
+            kenyamanan.
           </p>
         </motion.div>
 
@@ -98,9 +77,9 @@ export default function Philosophy() {
           className="max-w-3xl mx-auto mt-20 text-center"
         >
           <blockquote className="italic text-xl text-gray-700 leading-relaxed text-left md:text-center">
-            "Prinsip-prinsip inilah yang menjadi dasar setiap desain,
-            perencanaan anggaran, dokumen teknis, dan keputusan yang kami
-            berikan."
+            "Bagi kami, desain yang baik bukan hanya menghasilkan bangunan yang
+            indah, tetapi juga keputusan yang tepat sejak awal agar pembangunan
+            berjalan aman, efisien, dan sesuai anggaran."
           </blockquote>
 
           <p className="mt-6 font-medium text-primary text-left md:text-center">

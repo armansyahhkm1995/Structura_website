@@ -19,9 +19,11 @@ export default function Hero() {
           </h1>
 
           <p className="text-gray-600 mb-8 max-w-lg text-left">
-            Tidak perlu menunggu semua dokumen lengkap. Ceritakan kebutuhan,
-            anggaran, atau ide Anda. Kami akan membantu menentukan langkah
-            terbaik sebelum pembangunan dimulai.
+            Sebagai <strong>jasa arsitek Bandung</strong>, Structura membantu
+            Anda mendiskusikan rencana rumah tinggal, bangunan komersial, maupun
+            proyek konstruksi lainnya. Tidak perlu menunggu semua dokumen
+            lengkap—ceritakan kebutuhan, anggaran, atau ide Anda, dan kami akan
+            membantu menentukan langkah terbaik sebelum pembangunan dimulai.
           </p>
 
           {/* CTA */}
@@ -37,15 +39,12 @@ export default function Hero() {
             </a>
 
             {/* SECONDARY */}
-
-            <a
-              href={compro}
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              onClick={() => navigate("/Portfolio")}
               className="px-6 py-3 rounded-lg border border-gray-300 text-gray-700 hover:bg-gray-100 transition"
             >
-              Unduh Compro Kami
-            </a>
+              Lihat Portofolio Kami
+            </button>
           </div>
 
           {/* Trust indicator */}

@@ -19,35 +19,35 @@ export default function Hero() {
           </h1>
 
           <p className="text-gray-600 mb-8 max-w-lg text-left">
-            Structura hadir untuk membantu owner merencanakan rumah dan bangunan
-            dengan lebih terarah melalui desain, perencanaan anggaran, dokumen
-            teknis, serta pendampingan. Kami percaya bahwa keputusan yang tepat
-            sejak awal akan menghasilkan pembangunan yang lebih efisien, aman,
-            berkualitas, dan sesuai anggaran.
+            Structura adalah <strong>jasa arsitek Bandung</strong> yang membantu
+            owner merencanakan rumah, bangunan komersial, hingga berbagai proyek
+            konstruksi melalui layanan desain arsitektur, perencanaan struktur,
+            penyusunan RAB, pengurusan PBG, serta pendampingan pembangunan. Kami
+            percaya bahwa keputusan yang tepat sejak awal akan menghasilkan
+            pembangunan yang lebih efisien, aman, berkualitas, dan sesuai
+            anggaran.
           </p>
 
           {/* CTA */}
           <div className="flex flex-col sm:flex-row gap-4 pt-6">
             {/* PRIMARY */}
             <a
-              href={whatsappLink}
+              href={compro}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
             >
-              Mulai Konsultasi Gratis
+              Unduh Compro Kami
             </a>
 
             {/* SECONDARY */}
 
-            <a
-              href={compro}
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              onClick={() => navigate("/Portfolio")}
               className="px-6 py-3 rounded-lg border border-gray-300 text-gray-700 hover:bg-gray-100 transition"
             >
-              Unduh Compro Kami
-            </a>
+              Lihat Portofolio Kami
+            </button>
           </div>
         </div>
 
@@ -55,7 +55,7 @@ export default function Hero() {
         <div className="relative hidden md:flex items-stretch h-full">
           <img
             src={hero_section_image}
-            alt="Cost Planning"
+            alt="Tim Structura memberikan layanan arsitek Bandung, perencanaan pembangunan, RAB, dan konsultasi konstruksi"
             className="w-full h-full object-cover rounded-xl shadow-sm"
           />
 

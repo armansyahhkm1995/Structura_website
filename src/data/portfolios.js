@@ -37,94 +37,102 @@ export const data = {
     {
       // ================= UIN Sunan Gunung Djati Bandung =================
 
-      title: "Mengelola Estimasi Proyek Kampus ±18,6 Miliar",
+      title: "Gedung Kuliah Bersama UIN Sunan Gunung Djati Bandung",
       subtitle:
-        "Gedung Kuliah Bersama Kampus II - UIN Sunan Gunung Djati Bandung",
+        "Perencanaan pembangunan, penyusunan RAB, dan estimasi biaya proyek gedung pendidikan senilai ±Rp18,65 miliar.",
       location: "Bandung - Jawa Barat",
       size: "2.752 m²",
       type: "Gedung Pendidikan",
       value: "Rp 18,65 Miliar",
       year: "2019",
       image: uin_sunan_gunung_djati,
+      alt: "Perencanaan pembangunan dan penyusunan RAB Gedung Kuliah Bersama UIN Sunan Gunung Djati Bandung",
     },
 
     // ================= Pelebaran Jalan Awang Sabrang - Tenggarong =================
 
     {
-      title: "Perencanaan Teknis & Estimasi Jalan dengan Risiko Longsor",
-      subtitle: "Pelebaran Jalan Awang Sabrang - Tenggarong, Kutai Kartanegara",
+      title: "Pelebaran Jalan Awang Sabrang Tenggarong",
+      subtitle:
+        "Perencanaan teknis dan estimasi biaya pembangunan jalan pada kawasan dengan kondisi lereng dan potensi longsor.",
       location: "Tenggarong - Kalimantan",
       size: "± 248 m",
       type: "Infrastruktur Jalan",
       value: "—",
       year: "2023",
       image: awang_sabrang_1,
+      alt: "Perencanaan teknis pembangunan Pelebaran Jalan Awang Sabrang Tenggarong",
     },
 
     // ================= Preservasi Jalan - Palu =================
 
     {
-      title:
-        "Menjaga Performa Infrastruktur Jalan melalui Perencanaan Preservasi",
-      subtitle: "Preservasi Jalan Nasional – Palu, Sulawesi Tengah",
+      title: "Preservasi Jalan Nasional Palu",
+      subtitle:
+        "Perencanaan preservasi dan estimasi biaya untuk menjaga kinerja ruas jalan nasional sepanjang ±163 kilometer.",
       location: "Palu, Sulawesi Tengah",
       size: "± 163 KM",
       type: "Multi-segmen jalan",
       value: "—",
       year: "2024",
       image: preservasi_jalan_palu_1,
+      alt: "Perencanaan preservasi Jalan Nasional Palu Sulawesi Tengah",
     },
     {
       // ================= Perencanaan Biaya & Dukungan Pelaksanaan Proyek Gedung Pemerintah =================
 
-      title:
-        "Perencanaan Biaya & Dukungan Pelaksanaan Proyek Gedung Pemerintah",
+      title: "Gedung Utama SUDIN Kebersihan Jakarta Barat",
       subtitle:
-        "Pembangunan Gedung Utama & Sarana Lainnya - SUDIN Kebersihan Jakarta Barat",
+        "Perencanaan biaya dan penyusunan RAB pembangunan gedung pemerintah beserta sarana pendukungnya.",
       location: "Jakarta Barat - DKI Jakarta",
       size: "Multi-area",
       type: "Gedung Pemerintah",
       value: "Rp 19,25 Miliar",
       year: "2009",
       image: sudin_kebersihan_jakbar_1,
+      alt: "Perencanaan biaya pembangunan Gedung Utama SUDIN Kebersihan Jakarta Barat",
     },
     {
       // ================= Perencanaan Biaya & Dukungan Pelaksanaan Proyek Gedung Pemerintah =================
 
-      title: "Penyusunan RAB Komprehensif untuk Proyek Perumahan",
-      subtitle: "Pembangunan Panorama Bukit Cinere",
+      title: "Perumahan Panorama Bukit Cinere",
+      subtitle:
+        "Penyusunan RAB dan estimasi biaya pembangunan kawasan perumahan secara komprehensif.",
       location: "Cinere - Depok",
       size: "Multi-area",
       type: "Perumahan",
       value: "Rp 2,103 Miliar",
       year: "-",
       image: panorama_bukit_cinere_1,
+      alt: "Penyusunan RAB pembangunan Perumahan Panorama Bukit Cinere",
     },
     {
       // ================= TPK Sarimukti =================
 
-      title: "Perencanaan Sistem Pengolahan Sampah Terintegrasi",
+      title: "Perluasan TPPS Sarimukti",
       subtitle:
-        "Perluasan TPPS Sarimukti – Kecamatan Cipatat, Kabupaten Bandung Barat",
+        "Perencanaan pembangunan dan estimasi biaya fasilitas pengolahan sampah terpadu di Kabupaten Bandung Barat.",
       location: "Bandung Barat - Jawa Barat",
       size: "Multi-area",
       type: "Fasilitas Pengolahan Sampah (TPPS)",
       value: "Rp 20,443 Miliar",
       year: "Perencanaan",
       image: tpk_sarimukti_1,
+      alt: "Perencanaan pembangunan TPPS Sarimukti Kabupaten Bandung Barat",
     },
     {
       // ================= Perencanaan RAB Paket Rehabilitasi ±20 Sekolah =================
 
-      title: "Perencanaan RAB Paket Rehabilitasi ±20 Sekolah",
+      title: "Rehabilitasi Sarana Prasarana Sekolah Kabupaten Sukabumi",
       subtitle:
-        "Rehabilitasi dan Renovasi Sarana Prasarana Sekolah - Kab. Sukabumi",
+        "Penyusunan RAB dan estimasi biaya rehabilitasi serta renovasi sekitar 20 fasilitas pendidikan.",
       location: "Sukabumi - Jawa Barat",
       size: "Multi Lokasi (±20 Sekolah)",
       type: "Fasilitas Pendidikan",
       value: "Paket Proyek Skala Kabupaten",
       year: "2023",
       image: rehabilitasi_sarana_prasarana_sekolah_sukabumi_1,
+      alt: "Perencanaan RAB rehabilitasi sarana prasarana sekolah Kabupaten Sukabumi",
     },
   ],
 };

@@ -38,25 +38,27 @@ export default function FinalCTA() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="flex flex-col sm:flex-row justify-center gap-4"
         >
-          {/* PRIMARY */}
-          <a
-            href={whatsappLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-white text-primary font-medium px-8 py-4 rounded-xl shadow-lg hover:shadow-xl hover:scale-[1.02] transition text-center"
-          >
-            Mulai Konsultasi Gratis
-          </a>
+          {/* CTA */}
+          <div className="flex flex-col sm:flex-row gap-4 pt-6">
+            {/* PRIMARY */}
+            <a
+              href={compro}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-primary font-medium px-8 py-4 rounded-xl shadow-lg hover:shadow-xl hover:scale-[1.02] transition text-center"
+            >
+              Unduh Compro Kami
+            </a>
 
-          {/* SECONDARY */}
-          <a
-            href={compro}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-6 py-3 rounded-lg border border-gray-300 text-white hover:bg-gray-100 transition text-center"
-          >
-            Unduh Compro Kami
-          </a>
+            {/* SECONDARY */}
+
+            <button
+              onClick={() => navigate("/Portfolio")}
+              className="px-6 py-3 rounded-lg border border-gray-300 text-white hover:bg-gray-100 transition"
+            >
+              Lihat Portofolio Kami
+            </button>
+          </div>
         </motion.div>
         {/* Trust indicator */}
         <div className="mt-10 mb-10 text-center md:pl-25 mx-auto flex gap-5 text-sm text-white/80">

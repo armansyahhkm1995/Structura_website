@@ -32,8 +32,15 @@ export default function Portfolio() {
             </motion.h1>
 
             <p className="text-gray-600 max-w-2xl md:pl-25 text-left md:text-center">
-              Bagaimana kami membantu klien memahami dan mengontrol biaya proyek
-              sebelum pembangunan dimulai.
+              Jelajahi berbagai proyek yang pernah kami kerjakan, mulai dari
+              <strong> rumah tinggal</strong>,
+              <strong> bangunan komersial</strong>, hingga
+              <strong> proyek infrastruktur</strong>. Sebagai{" "}
+              <strong>jasa arsitek Bandung</strong> dan
+              <strong> konsultan konstruksi</strong>, Structura membantu owner
+              melalui desain, perencanaan struktur, penyusunan RAB, hingga
+              pendampingan pembangunan agar proyek berjalan lebih aman, efisien,
+              dan sesuai anggaran.
             </p>
           </div>
         </section>

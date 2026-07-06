@@ -10,9 +10,10 @@ export default function Preparation() {
             <em className="text-primary">Siapkan</em>
           </h1>
           <p className="text-gray-600">
-            Tidak semua data harus sudah tersedia. Semakin lengkap informasi
-            yang Anda miliki, semakin mudah kami memahami kebutuhan dan
-            memberikan rekomendasi yang lebih akurat.
+            Anda tidak harus memiliki semua dokumen sebelum berkonsultasi.
+            Semakin lengkap informasi yang Anda miliki, semakin mudah kami
+            memahami kebutuhan proyek dan memberikan rekomendasi desain,
+            struktur, RAB, maupun tahapan pembangunan yang sesuai.
           </p>
         </div>
 
